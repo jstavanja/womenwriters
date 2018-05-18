@@ -2,7 +2,7 @@
   <nav class="header">
     <div class="navigation">
       <div class="navigation-left">
-        <el-button class="btn-menu-open" type="primary" icon="el-icon-plus" circle></el-button>
+        <main-menu class="main-navigation-menu"/>
         <h1 class="brand">NEWW Women Writers</h1>
       </div>
       <div class="navigation-right">
@@ -18,11 +18,15 @@
 </template>
 
 <script>
+import MainMenu from './MainMenu'
 export default {
   data() {
     return {
       predefinedQuestionSearchInput: ''
     }
+  },
+  components: {
+    MainMenu
   }
 }
 </script>
@@ -38,6 +42,7 @@ export default {
       }
       .navigation-left {
         .brand {
+          font-family: HypatiaSansPro;
           margin-left: 10px;
         }
       }

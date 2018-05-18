@@ -28,8 +28,23 @@ export default {
 </script>
 
 <style>
+@font-face {
+    font-family: HypatiaSansPro;
+    src: url(./assets/HypatiaSansPro-Regular.otf);
+}
+@font-face {
+    font-family: HypatiaSansPro;
+    src: url(./assets/HypatiaSansPro-Semibold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: HypatiaSansPro;
+    src: url(./assets/HypatiaSansPro-Bold.otf);
+    font-weight: bolder;
+}
+
 #app {
-  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  font-family: HypatiaSansPro, sans-serif;
 
   max-width: 80vw;
   margin: 0 auto;

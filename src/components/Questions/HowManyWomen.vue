@@ -4,7 +4,7 @@
       <h2 class="visualization-title">How many foreign writers were read in Norway before 1930?</h2>
     </el-row>
     <el-row class="graph-container">
-      <test-graph :height="200"/>
+      <test-graph :height="150"/>
     </el-row>
   </div>
 </template>

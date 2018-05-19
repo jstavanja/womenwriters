@@ -32,7 +32,19 @@ export default {
 </script>
 
 <style lang="less">
+  .el-header {
+    padding: 0px;
+  }
   nav.header {
+    padding: 0 20px;
+    height: 220px;
+    background: linear-gradient(to bottom, #d931f7 0%,#f785ed 100%);
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 calc(100% - 30vw)
+    );
     .navigation {
       display: flex;
       justify-content: space-between;
@@ -43,12 +55,19 @@ export default {
       .navigation-left {
         .brand {
           font-family: HypatiaSansPro;
+          padding-top: 10px;
+          font-size: 36px;
           margin-left: 10px;
+          color: white;
         }
       }
       .navigation-right {
         .predefined-question-search-input {
           min-width: 275px;
+          input {
+            padding-top: 3px;
+            font-family: HypatiaSansPro;
+          }
         }
       }
     }

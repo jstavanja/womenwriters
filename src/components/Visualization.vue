@@ -19,8 +19,19 @@ export default {
 </script>
 
 <style lang="less">
-  .graph-container {
+  .el-main {
+    margin-top: -120px;
+    z-index: 15;
+  }
+  .visualization {
+    z-index: 15;
+    box-shadow: 0 4px 8px rgba(3,27,77,0.2);
     border-radius: 10px;
-    border: 1px solid #1d1d1d;
+    padding: 15px 30px;
+    background-color: white;
+    .graph-container {
+      border-radius: 10px;
+      border: 1px solid #1d1d1d;
+    }
   }
 </style>

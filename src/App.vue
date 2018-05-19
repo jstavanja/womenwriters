@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header>
+      <!-- <el-header> -->
         <Header />
-      </el-header>
+      <!-- </el-header> -->
       <el-main>
         <router-view/>
       </el-main>
@@ -27,26 +27,22 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+$--color-primary: black;
 @font-face {
     font-family: HypatiaSansPro;
     src: url(./assets/HypatiaSansPro-Regular.otf);
 }
 @font-face {
     font-family: HypatiaSansPro;
-    src: url(./assets/HypatiaSansPro-Semibold.otf);
     font-weight: bold;
+    src: url(./assets/HypatiaSansPro-Semibold.otf);
 }
-@font-face {
-    font-family: HypatiaSansPro;
-    src: url(./assets/HypatiaSansPro-Bold.otf);
-    font-weight: bolder;
+body {
+  margin: 0;
 }
-
 #app {
+  width: 100%;
   font-family: HypatiaSansPro, sans-serif;
-
-  max-width: 80vw;
-  margin: 0 auto;
 }
 </style>

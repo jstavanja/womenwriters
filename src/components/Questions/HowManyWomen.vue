@@ -1,9 +1,9 @@
 <template>
   <div class="question-how-many-women">
-    <el-row>
+    <el-row class="animated fadeIn">
       <h2 class="visualization-title">How many foreign writers were read in Norway before 1930?</h2>
     </el-row>
-    <el-row class="graph-container">
+    <el-row class="graph-container animated fadeIn fd1">
       <test-graph :height="150"/>
     </el-row>
   </div>

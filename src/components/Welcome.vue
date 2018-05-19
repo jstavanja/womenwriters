@@ -7,7 +7,7 @@
     <div class="recommended-questions">
       <i class="el-icon-caret-right"></i><h2>Here are some questions to get you started:</h2>
       <ul class="questions-list">
-        <router-link to="/howmanywomen" tag="li" class="question-link-wrapper">
+        <router-link to="/howmanywomen" tag="li" class="question-link-wrapper animated fadeIn">
           <div class="question-link">
             <i class="el-icon-question"></i>
             <div class="link-title">
@@ -15,7 +15,7 @@
             </div>
           </div>
         </router-link>
-        <li class="question-link-wrapper">
+        <li class="question-link-wrapper animated fadeIn fd1">
           <div class="question-link">
             <i class="el-icon-question"></i>
             <div class="link-title">
@@ -23,7 +23,7 @@
             </div>
           </div>
         </li>
-        <li class="question-link-wrapper">
+        <li class="question-link-wrapper animated fadeIn fd2">
           <div class="question-link">
             <i class="el-icon-question"></i>
             <div class="link-title">
@@ -31,7 +31,7 @@
             </div>
           </div>
         </li>
-        <li class="question-link-wrapper">
+        <li class="question-link-wrapper animated fadeIn fd3">
           <div class="question-link">
             <i class="el-icon-question"></i>
             <div class="link-title">

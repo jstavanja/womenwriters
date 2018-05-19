@@ -17,7 +17,7 @@
         </router-link>
       </li>
       <li @click="closeMenu">
-        <router-link to="questions" class="navigation-link" tag="div">
+        <router-link to="/questions" class="navigation-link" tag="div">
           <i class="el-icon-question"></i>
           <div class="link-text">
             <p class="link-title">I wonder ...</p>
@@ -26,7 +26,7 @@
         </router-link>
       </li>
       <li @click="closeMenu">
-        <router-link to="authors" class="navigation-link" tag="div">
+        <router-link to="/authors" class="navigation-link" tag="div">
           <i class="el-icon-info"></i>
           <div class="link-text">
             <p class="link-title">Who?</p>
@@ -35,15 +35,15 @@
         </router-link>
       </li>
       <li @click="closeMenu">
-        <div class="navigation-link">
-          <a href="http://google.com">
-            <i class="el-icon-share"></i>
-            <div class="link-text">
-              <p class="link-title">Original stuff</p>
-              <p class="link-description">Original data website</p>
-            </div>
-          </a>
-        </div>
+        <a href="http://resources.huygens.knaw.nl/womenwriters">
+          <div class="navigation-link">
+              <i class="el-icon-share"></i>
+              <div class="link-text">
+                <p class="link-title">Original stuff</p>
+                <p class="link-description">Original data website</p>
+              </div>
+          </div>
+        </a>
       </li>
     </ul>
   </el-popover>

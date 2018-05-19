@@ -10,10 +10,6 @@
 </script>
 
 <style lang="less">
-  .el-main {
-    margin-top: -120px;
-    z-index: 15;
-  }
   .visualization {
     .graph-container {
       border-radius: 10px;

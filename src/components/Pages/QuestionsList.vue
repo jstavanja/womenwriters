@@ -5,7 +5,7 @@
       <h2>Here are all the available question visualization titles:</h2>
     </div>
     <ul class="questions-list">
-      <router-link to="/howmanywomen" tag="li" class="question-link-wrapper animated fadeIn">
+      <router-link to="/visualization/howmanywomen" tag="li" class="question-link-wrapper animated fadeIn">
         <div class="question-link">
           <i class="el-icon-question"></i>
           <div class="link-title">

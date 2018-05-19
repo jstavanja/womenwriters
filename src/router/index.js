@@ -9,15 +9,16 @@ import HowManyWomen from '@/components/Questions/HowManyWomen'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
+      component: Welcome,
+    },
+    {
+      path: '/visualization',
       component: Visualization,
       children: [
-        {
-          path: '',
-          component: Welcome
-        },
         {
           path: 'howmanywomen',
           component: HowManyWomen

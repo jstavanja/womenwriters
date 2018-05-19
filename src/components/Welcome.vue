@@ -2,12 +2,12 @@
   <div class="welcome-message">
     <div class="welcome-heading">
       <img src="../assets/doormat.svg" alt="Welcome image" class="welcome-image">
-      <h2>Welcome to the NEWW visualization website, please choose or search for a question!</h2>
+      <h2>Welcome to the NEWWW visualization website, please choose or search for a question!</h2>
     </div>
     <div class="recommended-questions">
       <i class="el-icon-caret-right"></i><h2>Here are some questions to get you started:</h2>
       <ul class="questions-list">
-        <router-link to="/howmanywomen" tag="li" class="question-link-wrapper animated fadeIn">
+        <router-link to="/visualization/howmanywomen" tag="li" class="question-link-wrapper animated fadeIn">
           <div class="question-link">
             <i class="el-icon-question"></i>
             <div class="link-title">

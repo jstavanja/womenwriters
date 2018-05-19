@@ -49,13 +49,17 @@ body {
 #app {
   width: 100%;
   font-family: HypatiaSansPro, sans-serif;
-}
-.main-content-wrapper {
-  z-index: 15;
-  box-shadow: 0 4px 8px rgba(3,27,77,0.2);
-  border-radius: 10px;
-  padding: 15px 30px;
-  background-color: white;
+  .el-main {
+    margin-top: -120px;
+    z-index: 15;
+  }
+  .main-content-wrapper {
+    z-index: 15;
+    box-shadow: 0 4px 8px rgba(3,27,77,0.2);
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: white;
+  }
 }
 
 // Animation helper classes

@@ -3,7 +3,7 @@
     <div class="navigation">
       <div class="navigation-left">
         <main-menu class="main-navigation-menu"/>
-        <router-link to="/" class="brand" tag="h1">NEWW Women Writers</router-link>
+        <router-link to="/" class="brand" tag="h1">NEWWW Women Writers</router-link>
       </div>
       <div class="navigation-right">
         <el-input

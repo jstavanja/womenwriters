@@ -3,34 +3,46 @@
     placement="right-start"
     width="400"
     trigger="click"
+    v-model="menuOpen"
     class="main-menu">
     <el-button class="btn-menu-open" v-on-clickaway="closeMenu" @click='openMenu' :class="{'is-open': menuOpen}" type="info" icon="el-icon-caret-right" round slot="reference">Menu</el-button>
     <ul class="navigation-links">
-      <li>
-        <div class="navigation-link">
+      <li @click="closeMenu">
+        <router-link to="/" class="navigation-link" tag="div">
+          <i class="el-icon-location"></i>
+          <div class="link-text">
+            <p class="link-title">Home</p>
+            <p class="link-description">Homepage is where your heart is</p>
+          </div>
+        </router-link>
+      </li>
+      <li @click="closeMenu">
+        <router-link to="questions" class="navigation-link" tag="div">
           <i class="el-icon-question"></i>
           <div class="link-text">
             <p class="link-title">I wonder ...</p>
             <p class="link-description">Questions list</p>
           </div>
-        </div>
+        </router-link>
       </li>
-      <li>
-        <div class="navigation-link">
+      <li @click="closeMenu">
+        <router-link to="authors" class="navigation-link" tag="div">
           <i class="el-icon-info"></i>
           <div class="link-text">
             <p class="link-title">Who?</p>
             <p class="link-description">About the authors</p>
           </div>
-        </div>
+        </router-link>
       </li>
-      <li>
+      <li @click="closeMenu">
         <div class="navigation-link">
-          <i class="el-icon-share"></i>
-          <div class="link-text">
-            <p class="link-title">Original stuff</p>
-            <p class="link-description">Original data website</p>
-          </div>
+          <a href="http://google.com">
+            <i class="el-icon-share"></i>
+            <div class="link-text">
+              <p class="link-title">Original stuff</p>
+              <p class="link-description">Original data website</p>
+            </div>
+          </a>
         </div>
       </li>
     </ul>
@@ -114,11 +126,31 @@ export default {
         z-index: 10;
       }
 
+      a {
+        text-decoration: none;
+        display: flex;
+      }
+
       .navigation-link {
         display: flex;
         align-items: center;
         padding: 15px 30px;
         cursor: pointer;
+
+        &.router-link-exact-active {
+          background-color: #fafafa;
+          border-radius: 5px;
+          border: 1px solid rgba(3,27,77,0.1);
+          i {
+            margin-right: 30px;
+            color: #fe50ff;
+          }
+          .link-title {
+            font-weight: bolder;
+            text-decoration: underline;
+            text-decoration-color: #031b4f;
+          }
+        }
 
         i {
           margin-right: 30px;

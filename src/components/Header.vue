@@ -3,7 +3,7 @@
     <div class="navigation">
       <div class="navigation-left">
         <main-menu class="main-navigation-menu"/>
-        <h1 class="brand">NEWW Women Writers</h1>
+        <router-link to="/" class="brand" tag="h1">NEWW Women Writers</router-link>
       </div>
       <div class="navigation-right">
         <el-input
@@ -57,8 +57,14 @@ export default {
           font-family: HypatiaSansPro;
           padding-top: 10px;
           font-size: 36px;
-          margin-left: 10px;
+          margin-left: 20px;
           color: white;
+          cursor: pointer;
+          transition: all .15s linear;
+
+          &:hover {
+            text-shadow: 2px 2px 4px rgba(255,255,255,0.55);
+          }
         }
       }
       .navigation-right {

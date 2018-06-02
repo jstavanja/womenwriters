@@ -5,7 +5,7 @@
         <Header />
       <!-- </el-header> -->
       <el-main>
-        <div class="main-content-wrapper">
+        <div class="main-content-wrapper animated fadeInUp">
           <transition name="fade" mode="out-in">
             <router-view/>
           </transition>

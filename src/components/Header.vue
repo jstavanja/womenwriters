@@ -38,7 +38,7 @@ export default {
   nav.header {
     padding: 0 20px;
     height: 220px;
-    background: linear-gradient(to bottom, #d931f7 0%,#f785ed 100%);
+    background: linear-gradient(to bottom, #009688 0%,#00bfa5 100%);
     clip-path: polygon(
       0 0,
       100% 0,

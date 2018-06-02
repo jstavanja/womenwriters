@@ -143,7 +143,7 @@ export default {
           border: 1px solid rgba(3,27,77,0.1);
           i {
             margin-right: 30px;
-            color: #fe50ff;
+            color: #009688;
           }
           .link-title {
             font-weight: bolder;
@@ -155,7 +155,7 @@ export default {
         i {
           margin-right: 30px;
           font-size: 40px;
-          color: #f785ed;
+          color: #00bfa5;
         }
 
         .link-title {

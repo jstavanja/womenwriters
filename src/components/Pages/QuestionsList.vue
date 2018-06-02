@@ -96,7 +96,7 @@ export default {
         i {
           margin-right: 30px;
           font-size: 40px;
-          color: #f785ed;
+          color: #00bfa5;
         }
   
         .link-title {

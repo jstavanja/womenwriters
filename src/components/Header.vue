@@ -39,12 +39,6 @@ export default {
     padding: 0 20px;
     height: 220px;
     background: linear-gradient(to bottom, #009688 0%,#00bfa5 100%);
-    clip-path: polygon(
-      0 0,
-      100% 0,
-      100% 100%,
-      0 calc(100% - 30vw)
-    );
     .navigation {
       display: flex;
       justify-content: space-between;

@@ -7,38 +7,14 @@
     <div class="recommended-questions">
       <i class="el-icon-caret-right"></i><h2>Here are some questions to get you started:</h2>
       <ul class="questions-list">
-        <router-link to="/visualization/howmanywomen" tag="li" class="question-link-wrapper animated fadeIn">
+        <router-link :to="'/visualization/' + question.path" tag="li" class="question-link-wrapper animated fadeIn" v-for="(question, idx) in questions" :key="idx">
           <div class="question-link">
             <i class="el-icon-question"></i>
             <div class="link-title">
-              How many women writers were read in Norway before 1930?
+              {{ question.title }}
             </div>
           </div>
         </router-link>
-        <li class="question-link-wrapper animated fadeIn fd1">
-          <div class="question-link">
-            <i class="el-icon-question"></i>
-            <div class="link-title">
-              Question 2
-            </div>
-          </div>
-        </li>
-        <li class="question-link-wrapper animated fadeIn fd2">
-          <div class="question-link">
-            <i class="el-icon-question"></i>
-            <div class="link-title">
-              Question 3
-            </div>
-          </div>
-        </li>
-        <li class="question-link-wrapper animated fadeIn fd3">
-          <div class="question-link">
-            <i class="el-icon-question"></i>
-            <div class="link-title">
-              Question 4
-            </div>
-          </div>
-        </li>
       </ul>
     </div>
   </div>
@@ -46,7 +22,28 @@
 
 <script>
 export default {
-
+  data () {
+    return {
+      questions: [
+        {
+          title: 'How many foreign women writers were read in Norway before 1930?',
+          path: 'howmanywomen'
+        },
+        {
+          title: 'Which countries exported most female authorships to Norway?',
+          path: 'whichcountriesexported'
+        },
+        {
+          title: 'How many translations are there into Norwegian, and from which countries?',
+          path: 'howmanytranslations'
+        },
+        {
+          title: 'Show the 10 or 20 most translated authors into Norwegian',
+          path: 'showthe10or20'
+        }
+      ]
+    }
+  }
 }
 </script>
 

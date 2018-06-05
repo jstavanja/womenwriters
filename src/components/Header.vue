@@ -6,12 +6,7 @@
         <router-link to="/" class="brand" tag="h1">NEWWW Women Writers</router-link>
       </div>
       <div class="navigation-right">
-        <el-input
-          class="predefined-question-search-input"
-          placeholder="Search for a predefined question ..."
-          v-model="predefinedQuestionSearchInput">
-          <i slot="prefix" class="el-input__icon el-icon-search"></i>
-        </el-input>
+        <search />
       </div>
     </div>
   </nav>
@@ -19,14 +14,11 @@
 
 <script>
 import MainMenu from './MainMenu'
+import Search from './Search'
 export default {
-  data() {
-    return {
-      predefinedQuestionSearchInput: ''
-    }
-  },
   components: {
-    MainMenu
+    MainMenu,
+    Search
   }
 }
 </script>

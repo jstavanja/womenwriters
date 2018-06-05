@@ -11,7 +11,7 @@
         v-model="predefinedQuestionSearchInput"
         slot="reference"
         @focus="searchOpenForce = true"
-        @blur="searchOpenForce = true"
+        @blur="searchOpenForce = false"
         >
         <i slot="prefix" class="el-input__icon el-icon-search"></i>
       </el-input>

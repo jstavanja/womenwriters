@@ -15,7 +15,7 @@
         <el-col :span="8">
           <div class="grid-content second-place">
             <div class="podium-part animated slideInUp fd3">
-              <img src="../../assets/silver-medal.svg" alt="siler medal image" class="winner-icon">
+              <img src="../../assets/silver-medal.svg" alt="silver medal image" class="winner-icon">
               <div class="information">
                 <div class="person-name">
                   {{ first10or20[1].name }}

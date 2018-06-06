@@ -12,7 +12,7 @@
       </h3>
       <ul class="countries">
         <li class="country" v-for="(country, idx) in sortedCountries" :key="idx">
-          <div class="country-name">{{ country[0] }}</div><div class="text-wrapper">was exported: <div class="country-score"><div class="number">{{ country[1] }}</div></div> times.</div>
+          <div class="country-name">{{ country[0] }}</div><div class="text-wrapper">was exported <div class="country-score"><div class="number">{{ country[1] }}</div></div>  time<p v-if="country[1] > 1">s</p>.</div>
         </li>
       </ul>
     </el-row>
@@ -106,18 +106,18 @@ export default {
       .country {
         box-sizing: border-box;
         width: 80%;
-        border: 1px solid black;
+        border: 1px solid #aaa;
         border-radius: 5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 5px 10px;
-        background-color: #f3f6f9;
+        background-color: #f7f7f7;
         margin-top: 10px;
 
         &:hover {
           background-color: white;
-          border-color: rgba(3,27,77,0.1);
+          border-color: #ccc;
           box-shadow: 0 2px 4px rgba(3,27,77,0.05);
         }
         .country-name {
@@ -129,14 +129,16 @@ export default {
           align-items: center;
         }
         .country-score {
-          margin-left: 3px;
-          margin-right: 3px;
+          border: 1px solid #bbb;
+          min-width: 19px;
+          min-height: 19px;
+          margin-left: 6px;
+          margin-right: 6px;
           border-radius: 50%;
-          border: 1px solid darken(white, 30%);
-          display: flex;
-          align-items: center;
-          background-color: darken(white, 15%);
-          padding: 5px;
+          display: inline;
+          line-height: 20px;
+          text-align: center;
+          padding: 4px;
           font-weight: bold;
           color: #00bfa5;
         }

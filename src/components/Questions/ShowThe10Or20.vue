@@ -132,7 +132,6 @@ export default {
     }
   },
   created () {
-    setTimeout(() => {
     axios.post('https://repository.huygens.knaw.nl/solr/wwdocumentreceptions/select', 'q=*:*&fq=publishLocation_ss%3A(%22Norway%22)&fq=type_s%3Adocument_reception&facet.field=relationType_s&facet.field=authorName_ss&facet.field=authorGender_ss&facet.field=date_i&facet.field=publishLocation_ss&facet.field=language_ss&facet.field=genre_ss&facet.field=source_ss&facet.field=documentType_s&rows=2384&facet.limit=-1&facet.sort=count&&start=0&facet=on&wt=json')
       .then(response => response.data.response.docs)
       .then(data => {
@@ -164,7 +163,6 @@ export default {
         const first10or20 = a.slice(0, 20)
         this.first10or20 = first10or20
       })
-    }, 2000);
   }
 }
 </script>

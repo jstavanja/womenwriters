@@ -1,10 +1,20 @@
 <template>
   <div class="question-how-many-translations">
     <el-row class="animated fadeIn">
-		<h2 class="visualization-title">How many translations are there into Norwegian, and from which countries?</h2>
+		  <h2 class="visualization-title">How many translations are there into Norwegian, and from which countries?</h2>
     </el-row>
     <el-row class="graph-container animated fadeIn fd1">
-		<div id="map"></div>
+		  <div id="map"></div>
+    </el-row>
+    <el-row v-if="sortedCountries.length > 0" class="countries-list animated fadeIn fd1">
+      <h3 class="all-countries-title">
+        ... as a list
+      </h3>
+      <ul class="countries">
+        <li class="country" v-for="(country, idx) in sortedCountries" :key="idx">
+          <div class="country-name">{{ country[0] }}</div><div class="text-wrapper">was exported: <div class="country-score"><div class="number">{{ country[1] }}</div></div> times.</div>
+        </li>
+      </ul>
     </el-row>
   </div>
 </template>
@@ -12,6 +22,11 @@
 <script>
 import axios from 'axios'
 export default {
+  data () {
+    return {
+      sortedCountries: []
+    }
+  },
 	mounted() {
 		let recaptchaScript = document.createElement('script')
     recaptchaScript.setAttribute('src', 'https://www.gstatic.com/charts/loader.js')
@@ -33,11 +48,18 @@ export default {
         })
 
         const dataHeader = ['Country', 'Count']
-        this.countriesArray = [dataHeader]
+        this.countriesList = {}
 
         for (const [key, value] of Object.entries(countriesUnique)) {
-          this.countriesArray.push([key, value])
+          if (key === 'United Kingdom') {
+            this.countriesList['England'] += value
+          } else {
+            this.countriesList[key] = value
+          }
         }
+
+        this.countriesArray = [dataHeader, ...Object.entries(this.countriesList)]
+        this.sortedCountries = Object.entries(this.countriesList).filter((el) => el[0] !== "undefined").sort((a, b) => b[1] - a[1])
         
         google.charts.load('current', {
           'packages':['geochart'],
@@ -67,5 +89,58 @@ export default {
 	#map {
 		width: 75%;
 		margin: 0 auto;
-	}
+  }
+  
+  .countries-list {
+    .all-countries-title {
+      margin: 30px auto 20px;
+      display: table;
+    }
+    .countries {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .country {
+        box-sizing: border-box;
+        width: 80%;
+        border: 1px solid black;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10px;
+        background-color: #f3f6f9;
+        margin-top: 10px;
+
+        &:hover {
+          background-color: white;
+          border-color: rgba(3,27,77,0.1);
+          box-shadow: 0 2px 4px rgba(3,27,77,0.05);
+        }
+        .country-name {
+          font-weight: bold;
+          font-size: 20px;
+        }
+        .text-wrapper {
+          display: flex;
+          align-items: center;
+        }
+        .country-score {
+          margin-left: 3px;
+          margin-right: 3px;
+          border-radius: 50%;
+          border: 1px solid darken(white, 30%);
+          display: flex;
+          align-items: center;
+          background-color: darken(white, 15%);
+          padding: 5px;
+          font-weight: bold;
+          color: #00bfa5;
+        }
+      }
+    }
+  }
 </style>

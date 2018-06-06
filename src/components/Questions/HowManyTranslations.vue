@@ -86,6 +86,14 @@ export default {
 </script>
 
 <style lang="less">
+  html {
+    color: #444;
+  }
+
+  .graph-container {
+    border: 0 !important;
+  }
+
 	#map {
 		width: 75%;
 		margin: 0 auto;
@@ -105,15 +113,16 @@ export default {
       align-items: center;
       .country {
         box-sizing: border-box;
-        width: 80%;
-        border: 1px solid #aaa;
+        width: 70%;
+        border: 1px solid #bbb;
         border-radius: 5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 5px 10px;
         background-color: #f7f7f7;
-        margin-top: 10px;
+        margin-top: 6px;
+        height: 50px;
 
         &:hover {
           background-color: white;

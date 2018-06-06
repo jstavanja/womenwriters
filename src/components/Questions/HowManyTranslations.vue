@@ -22,55 +22,45 @@ export default {
       'q=*:*&fq=relationType_s%3A(%22isTranslationOf%22)&fq=authorGender_ss%3A(%22FEMALE%22)&fq=language_ss%3A(%22Norwegian%22)&fq=type_s%3Adocument_reception&facet.field=relationType_s&facet.field=authorName_ss&facet.field=authorGender_ss&facet.field=date_i&facet.field=publishLocation_ss&facet.field=language_ss&facet.field=genre_ss&facet.field=source_ss&facet.field=documentType_s&rows=1000&facet.limit=-1&facet.sort=count&&start=0&facet=on&wt=json')
       .then((res) => res.data.response.docs)
       .then((works) => {
-	  console.log(works)
+
         let countriesUnique = {}
         works.forEach((work) => {
-			if(work.document_locationSort_s in countriesUnique)
-				countriesUnique[work.document_locationSort_s]++;
-			else
-				countriesUnique[work.document_locationSort_s] = 1;
+          if (work.document_locationSort_s in countriesUnique) {
+            countriesUnique[work.document_locationSort_s]++
+          } else {
+            countriesUnique[work.document_locationSort_s] = 1
+          }
         })
-		
-		let countriesArray = []
-		for (const [key, value] of Object.entries(countriesUnique)) {
-			console.log(key, value);
-		}
-        console.log(countriesArray)
-		
-		google.charts.load('current', {
-		  'packages':['geochart'],
-		  'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
-		});
-		google.charts.setOnLoadCallback(drawRegionsMap);
+
+        const dataHeader = ['Country', 'Count']
+        this.countriesArray = [dataHeader]
+
+        for (const [key, value] of Object.entries(countriesUnique)) {
+          this.countriesArray.push([key, value])
+        }
+        
+        google.charts.load('current', {
+          'packages':['geochart'],
+          'mapsApiKey': 'AIzaSyAWMQ35Ki6bgjtOQ8DXxKOthQATcfnVVd0'
+        });
+        google.charts.setOnLoadCallback(this.drawRegionsMap);
+        
       })
+  },
+  methods: {
+    drawRegionsMap () {
+      let data = google.visualization.arrayToDataTable(this.countriesArray);
+
+      let options = {
+        colorAxis: {colors: ['#8DE2DA', '#00635A']},
+        defaultColor: '#EFFCF4'
+      }
+
+      let chart = new google.visualization.GeoChart(document.getElementById('map'));
+      chart.draw(data, options);
+    }
   }
-  
 }
-
-function drawRegionsMap() {
-  let data = google.visualization.arrayToDataTable([
-    ['Country', 'Count'],
-    ['England', 98],
-    ['United States', 24],
-    ['Germany', 12],
-	['Ireland', 8],
-    ['Canada', 7],
-    ['France', 5],
-    ['Sweden', 5],
-    ['Switzerland', 5],
-    ['Italy', 2],
-    ['Austria', 1]
-  ]);
-
-  let options = {
-	colorAxis: {colors: ['#8DE2DA', '#00635A']},
-	defaultColor: '#EFFCF4'
-  };
-
-  let chart = new google.visualization.GeoChart(document.getElementById('map'));
-  chart.draw(data, options);
-}
-
 </script>
 
 <style lang="less">

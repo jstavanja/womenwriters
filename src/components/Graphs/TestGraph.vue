@@ -1,17 +1,18 @@
 <script>
-import { Line } from 'vue-chartjs'
+import { Bar } from 'vue-chartjs'
 
 export default {
-  extends: Line,
+  extends: Bar,
+  props: ['data'],
   mounted () {
     // Overwriting base render method with actual data.
     this.renderChart({
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+      labels: ['France', 'England', 'Sweden'],
       datasets: [
         {
-          label: 'GitHub Commits',
-          backgroundColor: '#f785ed',
-          data: [40, 20, 12, 39, 10, 40, 39, 80, 40, 20, 12, 11]
+          label: 'Number of authors per country',
+          backgroundColor: '#009688',
+          data: [2, 2, 2]
         }
       ]
     })

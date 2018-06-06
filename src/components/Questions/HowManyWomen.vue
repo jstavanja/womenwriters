@@ -4,7 +4,7 @@
       <h2 class="visualization-title">How many foreign writers were read in Norway before 1930?</h2>
     </el-row>
     <el-row class="graph-container animated fadeIn fd1">
-      <test-graph :height="150"/>
+      <test-graph :data="writersUnique" :height="150"/>
     </el-row>
   </div>
 </template>
@@ -15,6 +15,11 @@ import axios from 'axios'
 export default {
   components: {
     TestGraph
+  },
+  data () {
+    return {
+      writersUnique: []
+    }
   },
   created () {
     axios.post('https://repository.huygens.knaw.nl/solr/wwpersonreceptions/select',
@@ -30,9 +35,11 @@ export default {
         let writersUnique = {}
         foreignWriters.forEach((writer) => {
           writersUnique[writer.authorName_ss] = writer
+          console.log(writer.person_birthPlace_ss[0] + writer.authorName_ss[0])
         })
 
         console.log(writersUnique)
+        this.writersUnique = writersUnique;
       })
   }
 }

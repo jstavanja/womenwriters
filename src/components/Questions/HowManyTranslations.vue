@@ -121,8 +121,8 @@ export default {
         align-items: center;
         padding: 5px 10px;
         background-color: #f7f7f7;
-        margin-top: 6px;
-        height: 50px;
+        margin-top: 9px;
+        height: 42px;
 
         &:hover {
           background-color: white;
@@ -149,7 +149,7 @@ export default {
           text-align: center;
           padding: 4px;
           font-weight: bold;
-          color: #00bfa5;
+          color: #008c79;
         }
       }
     }

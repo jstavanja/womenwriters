@@ -16,7 +16,7 @@
                     {{ mostRead[1].name }}
                   </div>
                   <div class="text-wrapper">
-                    translated into other languages:
+                    translated into other languages
                     <div class="person-score">
                       {{ mostRead[1].translatedTimes }}
                     </div>
@@ -152,6 +152,10 @@ export default {
 </script>
 
 <style lang="less">
+  html {
+    color: #444;
+  }
+
   .question-were-read-abroad {
     width: 100%;
     position: relative;
@@ -204,16 +208,19 @@ export default {
               color: darken(#00bfa5, 10%);
             }
             .person-score {
-              margin-left: 3px;
-              margin-right: 3px;
+              border: 1px solid #bbb;
+              min-width: 19px;
+              min-height: 19px;
+              margin-left: 6px;
+              margin-right: 6px;
               border-radius: 50%;
               border: 1px solid darken(white, 30%);
-              display: flex;
-              align-items: center;
-              background-color: darken(white, 15%);
-              padding: 5px;
+              display: inline;
+              line-height: 20px;
+              text-align: center;
+              padding: 4px;
               font-weight: bold;
-              color: #00bfa5;
+              color: #008c79;
             }
           }
         }
@@ -254,7 +261,7 @@ export default {
           align-items: center;
           font-family: HypatiaSansPro, sans-serif;
           height: 100%;
-          border: 3px solid black;
+          border: 4px solid #008c79;
           font-weight: bold;
         }
       }
@@ -273,19 +280,20 @@ export default {
         align-items: center;
         .person {
           box-sizing: border-box;
-          width: 80%;
-          border: 1px solid black;
+          width: 70%;
+          border: 1px solid #bbb;
           border-radius: 5px;
           display: flex;
           justify-content: space-between;
           align-items: center;
           padding: 5px 10px;
-          background-color: #f3f6f9;
-          margin-top: 10px;
+          background-color: #f7f7f7;
+          margin-top: 8px;
+          height: 42px;
 
           &:hover {
             background-color: white;
-            border-color: rgba(3,27,77,0.1);
+            border-color: #ccc;
             box-shadow: 0 2px 4px rgba(3,27,77,0.05);
           }
           .person-name {
@@ -297,16 +305,19 @@ export default {
             align-items: center;
           }
           .person-score {
-            margin-left: 3px;
-            margin-right: 3px;
+            border: 1px solid #bbb;
+            min-width: 19px;
+            min-height: 19px;
+            margin-left: 6px;
+            margin-right: 6px;
             border-radius: 50%;
             border: 1px solid darken(white, 30%);
-            display: flex;
-            align-items: center;
-            background-color: darken(white, 15%);
-            padding: 5px;
+            display: inline;
+            line-height: 20px;
+            text-align: center;
+            padding: 4px;
             font-weight: bold;
-            color: #00bfa5;
+            color: #008c79;
           }
         }
       }

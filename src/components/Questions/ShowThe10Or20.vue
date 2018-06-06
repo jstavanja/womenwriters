@@ -21,7 +21,7 @@
                   {{ first10or20[1].name }}
                 </div>
                 <div class="text-wrapper">
-                  translated:
+                  translated
                   <div class="person-score">
                     {{ first10or20[1].translatedTimes }}
                   </div>
@@ -40,7 +40,7 @@
                   {{ first10or20[0].name }}
                 </div>
                 <div class="text-wrapper">
-                  translated:
+                  translated
                   <div class="person-score">
                     {{ first10or20[0].translatedTimes }}
                   </div>
@@ -59,7 +59,7 @@
                   {{ first10or20[2].name }}
                 </div>
                 <div class="text-wrapper">
-                  translated:
+                  translated
                   <div class="person-score">
                     {{ first10or20[2].translatedTimes }}
                   </div>
@@ -74,7 +74,7 @@
         <el-col :span="8">
           <div class="grid-content second-place">
             <div class="podium-part animated slideInUp fd3">
-              <div class="animated pulse infinite fd1">
+              <div class="animated pulse infinite fd1" style="color: #008c79;"> 
                 2nd
               </div>
             </div>
@@ -83,7 +83,7 @@
         <el-col :span="8">
           <div class="grid-content first-place">
             <div class="podium-part animated slideInUp fd1">
-              <div class="animated pulse infinite fd2">
+              <div class="animated pulse infinite fd2" style="color: #008c79;">
                 1st
               </div>
             </div>
@@ -92,7 +92,7 @@
         <el-col :span="8">
           <div class="grid-content third-place">
             <div class="podium-part animated slideInUp fd5">
-              <div class="animated pulse infinite fd3">
+              <div class="animated pulse infinite fd3" style="color: #008c79;">
                 3rd
               </div>
             </div>
@@ -105,7 +105,7 @@
         </h3>
         <ul class="others">
           <li class="person" v-for="(person, idx) in people" :key="idx">
-            <div class="person-name">{{ person.name }}</div><div class="text-wrapper">translated: <div class="person-score"><div class="number">{{ person.translatedTimes }}</div></div> times.</div>
+            <div class="person-name">{{ person.name }}</div><div class="text-wrapper">translated <div class="person-score"><div class="number">{{ person.translatedTimes }}</div></div> times.</div>
           </li>
         </ul>
       </el-row>
@@ -168,6 +168,10 @@ export default {
 </script>
 
 <style lang="less">
+  html {
+    color: #444;
+  }
+  
   .question-show-the-10-or-20 {
     width: 100%;
     position: relative;
@@ -227,16 +231,19 @@ export default {
               color: darken(#00bfa5, 10%);
             }
             .person-score {
-              margin-left: 3px;
-              margin-right: 3px;
+              border: 1px solid #bbb;
+              min-width: 19px;
+              min-height: 19px;
+              margin-left: 6px;
+              margin-right: 6px;
               border-radius: 50%;
               border: 1px solid darken(white, 30%);
-              display: flex;
-              align-items: center;
-              background-color: darken(white, 15%);
-              padding: 5px;
+              display: inline;
+              line-height: 20px;
+              text-align: center;
+              padding: 4px;
               font-weight: bold;
-              color: #00bfa5;
+              color: #008c79;
             }
           }
         }
@@ -277,7 +284,7 @@ export default {
           align-items: center;
           font-family: HypatiaSansPro, sans-serif;
           height: 100%;
-          border: 3px solid black;
+          border: 4px solid #008c79;
           font-weight: bold;
         }
       }
@@ -296,19 +303,20 @@ export default {
         align-items: center;
         .person {
           box-sizing: border-box;
-          width: 80%;
-          border: 1px solid black;
+          width: 70%;
+          border: 1px solid #bbb;
           border-radius: 5px;
           display: flex;
           justify-content: space-between;
           align-items: center;
           padding: 5px 10px;
-          background-color: #f3f6f9;
-          margin-top: 10px;
+          background-color: #f7f7f7;
+          margin-top: 9px;
+          height: 42px;
 
           &:hover {
             background-color: white;
-            border-color: rgba(3,27,77,0.1);
+            border-color: #ccc;
             box-shadow: 0 2px 4px rgba(3,27,77,0.05);
           }
           .person-name {
@@ -320,16 +328,19 @@ export default {
             align-items: center;
           }
           .person-score {
-            margin-left: 3px;
-            margin-right: 3px;
+            border: 1px solid #bbb;
+            min-width: 19px;
+            min-height: 19px;
+            margin-left: 6px;
+            margin-right: 6px;
             border-radius: 50%;
             border: 1px solid darken(white, 30%);
-            display: flex;
-            align-items: center;
-            background-color: darken(white, 15%);
-            padding: 5px;
+            display: inline;
+            line-height: 20px;
+            text-align: center;
+            padding: 4px;
             font-weight: bold;
-            color: #00bfa5;
+            color: #008c79;
           }
         }
       }

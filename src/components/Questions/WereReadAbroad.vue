@@ -35,7 +35,7 @@
                     {{ mostRead[0].name }}
                   </div>
                   <div class="text-wrapper">
-                    translated into other languages:
+                    translated into other languages
                     <div class="person-score">
                       {{ mostRead[0].translatedTimes }}
                     </div>
@@ -54,7 +54,7 @@
                     {{ mostRead[2].name }}
                   </div>
                   <div class="text-wrapper">
-                    translated into other languages:
+                    translated into other languages
                     <div class="person-score">
                       {{ mostRead[2].translatedTimes }}
                     </div>
@@ -69,7 +69,7 @@
           <el-col :span="8">
             <div class="grid-content second-place">
               <div class="podium-part animated slideInUp fd3">
-                <div class="animated pulse infinite fd1">
+                <div class="animated pulse infinite fd1" style="color: #008c79;">
                   2nd
                 </div>
               </div>
@@ -78,7 +78,7 @@
           <el-col :span="8">
             <div class="grid-content first-place">
               <div class="podium-part animated slideInUp fd1">
-                <div class="animated pulse infinite fd2">
+                <div class="animated pulse infinite fd2" style="color: #008c79;">
                   1st
                 </div>
               </div>
@@ -87,7 +87,7 @@
           <el-col :span="8">
             <div class="grid-content third-place">
               <div class="podium-part animated slideInUp fd5">
-                <div class="animated pulse infinite fd3">
+                <div class="animated pulse infinite fd3" style="color: #008c79;">
                   3rd
                 </div>
               </div>
@@ -100,7 +100,7 @@
           </h3>
           <ul class="others">
             <li class="person" v-for="(person, idx) in mostRead.slice(3, 20)" :key="idx">
-              <div class="person-name">{{ person.name }}</div><div class="text-wrapper">translated into other languages: <div class="person-score"><div class="number">{{ person.translatedTimes }}</div></div> times.</div>
+              <div class="person-name">{{ person.name }}</div><div class="text-wrapper">translated into other languages <div class="person-score"><div class="number">{{ person.translatedTimes }}</div></div> times.</div>
             </li>
           </ul>
         </el-row>
@@ -288,7 +288,7 @@ export default {
           align-items: center;
           padding: 5px 10px;
           background-color: #f7f7f7;
-          margin-top: 8px;
+          margin-top: 9px;
           height: 42px;
 
           &:hover {

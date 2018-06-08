@@ -6,130 +6,142 @@
     <div class="visualization">
       <h3 class="visualization-subtitle">... YES. Who were the top 20 most translated authors from Norwegian to any foreign language?</h3>
       <div class="visualization" v-if="mostRead.length > 0">
-        <el-row class="visualization-chart">
+        <el-row class="visualization-mode-toggle">
+          <el-switch
+            v-model="isGraph"
+            active-text="show graph mode"
+            inactive-text="show leaderboard mode"
+            active-color="#4286f4"
+            inactive-color="#00bfa5">
+          </el-switch>
+        </el-row>
+        <el-row class="visualization-chart" v-if="isGraph">
           <were-read-abroad-graph :data="mostRead" />
         </el-row>
-        <el-row class="podium-winners">
-          <el-col :span="8">
-            <div class="grid-content second-place">
-              <div class="podium-part animated slideInUp fd3">
-                <img src="../../assets/silver-medal.svg" alt="silver medal image" class="winner-icon">
-                <div class="information">
-                  <div class="person-name">
-                    {{ mostRead[1].name }}
-                  </div>
-                  <div class="text-wrapper">
-                    translated into other languages
-                    <div class="person-score">
-                      {{ mostRead[1].translatedTimes }}
+        <el-row class="visualization-leaderboard" v-else>
+          <el-row class="podium-winners" >
+            <el-col :span="8">
+              <div class="grid-content second-place">
+                <div class="podium-part animated slideInUp fd3">
+                  <img src="../../assets/silver-medal.svg" alt="silver medal image" class="winner-icon">
+                  <div class="information">
+                    <div class="person-name">
+                      {{ mostRead[1].name }}
                     </div>
-                    times.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </el-col>
-          <el-col :span="8">
-            <div class="grid-content first-place">
-              <div class="podium-part animated slideInUp fd1">
-                <img src="../../assets/champion.svg" alt="winner image" class="winner-icon">
-                <div class="information">
-                  <div class="person-name">
-                    {{ mostRead[0].name }}
-                  </div>
-                  <div class="text-wrapper">
-                    translated into other languages
-                    <div class="person-score">
-                      {{ mostRead[0].translatedTimes }}
+                    <div class="text-wrapper">
+                      translated into other languages
+                      <div class="person-score">
+                        {{ mostRead[1].translatedTimes }}
+                      </div>
+                      times.
                     </div>
-                    times.
                   </div>
                 </div>
               </div>
-            </div>
-          </el-col>
-          <el-col :span="8">
-            <div class="grid-content third-place">
-              <div class="podium-part animated slideInUp fd5">
-                <img src="../../assets/bronze-medal.svg" alt="bronze medal image" class="winner-icon">
-                <div class="information">
-                  <div class="person-name">
-                    {{ mostRead[2].name }}
-                  </div>
-                  <div class="text-wrapper">
-                    translated into other languages
-                    <div class="person-score">
-                      {{ mostRead[2].translatedTimes }}
+            </el-col>
+            <el-col :span="8">
+              <div class="grid-content first-place">
+                <div class="podium-part animated slideInUp fd1">
+                  <img src="../../assets/champion.svg" alt="winner image" class="winner-icon">
+                  <div class="information">
+                    <div class="person-name">
+                      {{ mostRead[0].name }}
                     </div>
-                    times.
+                    <div class="text-wrapper">
+                      translated into other languages
+                      <div class="person-score">
+                        {{ mostRead[0].translatedTimes }}
+                      </div>
+                      times.
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </el-col>
-        </el-row>
-        <el-row class="podium">
-          <el-col :span="8">
-            <div class="grid-content second-place">
-              <div class="podium-part animated slideInUp fd3">
-                <div class="animated pulse infinite fd1" style="color: #008c79;">
-                  2nd
+            </el-col>
+            <el-col :span="8">
+              <div class="grid-content third-place">
+                <div class="podium-part animated slideInUp fd5">
+                  <img src="../../assets/bronze-medal.svg" alt="bronze medal image" class="winner-icon">
+                  <div class="information">
+                    <div class="person-name">
+                      {{ mostRead[2].name }}
+                    </div>
+                    <div class="text-wrapper">
+                      translated into other languages
+                      <div class="person-score">
+                        {{ mostRead[2].translatedTimes }}
+                      </div>
+                      times.
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </el-col>
-          <el-col :span="8">
-            <div class="grid-content first-place">
-              <div class="podium-part animated slideInUp fd1">
-                <div class="animated pulse infinite fd2" style="color: #008c79;">
-                  1st
+            </el-col>
+          </el-row>
+          <el-row class="podium">
+            <el-col :span="8">
+              <div class="grid-content second-place">
+                <div class="podium-part animated slideInUp fd3">
+                  <div class="animated pulse infinite fd1" style="color: #008c79;">
+                    2nd
+                  </div>
                 </div>
               </div>
-            </div>
-          </el-col>
-          <el-col :span="8">
-            <div class="grid-content third-place">
-              <div class="podium-part animated slideInUp fd5">
-                <div class="animated pulse infinite fd3" style="color: #008c79;">
-                  3rd
+            </el-col>
+            <el-col :span="8">
+              <div class="grid-content first-place">
+                <div class="podium-part animated slideInUp fd1">
+                  <div class="animated pulse infinite fd2" style="color: #008c79;">
+                    1st
+                  </div>
                 </div>
               </div>
-            </div>
-          </el-col>
-        </el-row>
-        <el-row>
-          <div id="bubbles">
+            </el-col>
+            <el-col :span="8">
+              <div class="grid-content third-place">
+                <div class="podium-part animated slideInUp fd5">
+                  <div class="animated pulse infinite fd3" style="color: #008c79;">
+                    3rd
+                  </div>
+                </div>
+              </div>
+            </el-col>
+          </el-row>
+          <el-row>
+            <div id="bubbles">
 
-          </div>
-        </el-row>
-        <el-row class="others-list animated fadeIn fd5">
-          <h3 class="others-title">
-            Honorable mentions
-          </h3>
-          <ul class="others">
-            <li class="person" v-for="(person, idx) in mostRead.slice(3, 20)" :key="idx">
-              <div class="person-name">{{ person.name }}</div><div class="text-wrapper">translated into other languages <div class="person-score"><div class="number">{{ person.translatedTimes }}</div></div> times.</div>
-            </li>
-          </ul>
+            </div>
+          </el-row>
+          <el-row class="others-list animated fadeIn fd5">
+            <h3 class="others-title">
+              Honorable mentions
+            </h3>
+            <ul class="others">
+              <li class="person" v-for="(person, idx) in mostRead.slice(3, 20)" :key="idx">
+                <div class="person-name">{{ person.name }}</div><div class="text-wrapper">translated into other languages <div class="person-score"><div class="number">{{ person.translatedTimes }}</div></div> times.</div>
+              </li>
+            </ul>
+          </el-row>
         </el-row>
       </div>
-      <div class="loading-spinner" v-else>
-        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-      </div>
+      <loading-spinner :centered="true" v-else></loading-spinner>
     </div>
   </div>
 </template>
 
 <script>
+import LoadingSpinner from '../Utils/LoadingSpinner'
 import axios from 'axios'
 import wereReadAbroadGraph from '../Graphs/WereReadAbroadGraph'
 export default {
   components: {
-    wereReadAbroadGraph
+    wereReadAbroadGraph,
+    LoadingSpinner
   },
   data () {
     return {
-      mostRead: []
+      mostRead: [],
+      isGraph: true
     }
   },
   created () {
@@ -171,6 +183,12 @@ export default {
   .question-were-read-abroad {
     width: 100%;
     position: relative;
+    .visualization-mode-toggle {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
     .loading-spinner, .page-header, .visualization-subtitle {
       display: flex;
       justify-content: center;

@@ -6,7 +6,7 @@
     <el-row class="graph-container animated fadeIn fd1">
 		  <div id="map"></div>
     </el-row>
-    <el-row v-if="sortedCountries.length > 0" class="countries-list animated fadeIn fd1">
+    <el-row v-if="countriesLoaded" class="countries-list animated fadeIn fd1">
       <h3 class="all-countries-title">
         ... as a list
       </h3>
@@ -16,15 +16,21 @@
         </li>
       </ul>
     </el-row>
+    <loading-spinner :centered="true" v-else></loading-spinner>
   </div>
 </template>
 
 <script>
+import LoadingSpinner from '../Utils/LoadingSpinner'
 import axios from 'axios'
 export default {
+  components: {
+    LoadingSpinner
+  },
   data () {
     return {
-      sortedCountries: []
+      sortedCountries: [],
+      countriesLoaded: false
     }
   },
 	mounted() {
@@ -66,6 +72,8 @@ export default {
         });
         google.charts.setOnLoadCallback(this.drawRegionsMap);
         
+      }).then(() => {
+        this.countriesLoaded = true
       })
   },
   methods: {

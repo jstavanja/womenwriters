@@ -110,16 +110,18 @@
         </ul>
       </el-row>
     </div>
-    <div class="loading-spinner" v-else>
-      <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-    </div>
+    <loading-spinner :centered="true" v-else></loading-spinner>
   </div>
 </template>
 
 <script>
 import axios from 'axios'
+import loadingSpinner from '../Utils/LoadingSpinner'
 
 export default {
+  components: {
+    loadingSpinner
+  },
   data () {
     return {
       first10or20: [],
@@ -132,7 +134,8 @@ export default {
     }
   },
   created () {
-    axios.post('https://repository.huygens.knaw.nl/solr/wwdocumentreceptions/select', 'q=*:*&fq=publishLocation_ss%3A(%22Norway%22)&fq=type_s%3Adocument_reception&facet.field=relationType_s&facet.field=authorName_ss&facet.field=authorGender_ss&facet.field=date_i&facet.field=publishLocation_ss&facet.field=language_ss&facet.field=genre_ss&facet.field=source_ss&facet.field=documentType_s&rows=2384&facet.limit=-1&facet.sort=count&&start=0&facet=on&wt=json')
+    axios.post('https://repository.huygens.knaw.nl/solr/wwdocumentreceptions/select',
+    'q=*:*&fq=relationType_s%3A(%22isTranslationOf%22)&fq=publishLocation_ss%3A(%22Norway%22)&fq=type_s%3Adocument_reception&facet.field=relationType_s&facet.field=authorName_ss&facet.field=authorGender_ss&facet.field=date_i&facet.field=publishLocation_ss&facet.field=language_ss&facet.field=genre_ss&facet.field=source_ss&facet.field=documentType_s&rows=2384&facet.limit=-1&facet.sort=count&&start=0&facet=on&wt=json')
       .then(response => response.data.response.docs)
       .then(data => {
         let allTranslated = data.filter(publication => {

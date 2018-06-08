@@ -3,23 +3,27 @@
     <el-row class="animated fadeIn">
       <h2 class="visualization-title">How many foreign writers were read in Norway before 1930?</h2>
     </el-row>
-    <el-row v-if="writersUnique" class="visualization-total">
-      The number of all the writers is: <span class="number">{{ writersUnique.length }}</span>
-    </el-row>
-    <el-row class="graph-container animated fadeIn fd1" v-if="countriesLoaded">
-      <how-many-women-graph :data="byCountry" :height="150"/>
-    </el-row>
-    <el-row v-else>Loading data.</el-row>
+    <div class="visualization" v-if="countriesLoaded">
+      <el-row v-if="writersUnique" class="visualization-total">
+        The number of all the writers is: <span class="number">{{ writersUnique.length }}</span>
+      </el-row>
+      <el-row class="graph-container animated fadeIn fd1">
+        <how-many-women-graph :data="byCountry" :height="150"/>
+      </el-row>
+    </div>
+    <loading-spinner :centered="true" v-else></loading-spinner>
   </div>
 </template>
 
 <script>
 import HowManyWomenGraph from '../Graphs/HowManyWomenGraph'
+import LoadingSpinner from '../Utils/LoadingSpinner'
 import axios from 'axios'
 
 export default {
   components: {
-    HowManyWomenGraph
+    HowManyWomenGraph,
+    LoadingSpinner
   },
   data () {
     return {

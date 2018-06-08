@@ -5,7 +5,6 @@ export default {
   props: ['data'],
   mounted () {
     // Overwriting base render method with actual data.
-    console.log(this.data)
     this.renderChart({
       labels: this.data.map((el) => el.name),
       datasets: [

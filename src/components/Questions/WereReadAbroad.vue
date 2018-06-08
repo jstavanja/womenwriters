@@ -6,6 +6,9 @@
     <div class="visualization">
       <h3 class="visualization-subtitle">... YES. Who were the top 20 most translated authors from Norwegian to any foreign language?</h3>
       <div class="visualization" v-if="mostRead.length > 0">
+        <el-row class="visualization-chart">
+          <were-read-abroad-graph :data="mostRead" />
+        </el-row>
         <el-row class="podium-winners">
           <el-col :span="8">
             <div class="grid-content second-place">
@@ -94,6 +97,11 @@
             </div>
           </el-col>
         </el-row>
+        <el-row>
+          <div id="bubbles">
+
+          </div>
+        </el-row>
         <el-row class="others-list animated fadeIn fd5">
           <h3 class="others-title">
             Honorable mentions
@@ -114,7 +122,11 @@
 
 <script>
 import axios from 'axios'
+import wereReadAbroadGraph from '../Graphs/WereReadAbroadGraph'
 export default {
+  components: {
+    wereReadAbroadGraph
+  },
   data () {
     return {
       mostRead: []

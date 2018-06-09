@@ -16,7 +16,7 @@
     </el-row>
     <el-row class="visualization" v-if="dataFetched">
       <el-row class="decades-comparison" :gutter="20">
-        <el-col :span="8" class="animated fadeInLeft" v-for="(d, idx) in availableDecades" :key="d">
+        <el-col :span="8" class="animated fadeInLeft" v-for="d in availableDecades" :key="d">
           <el-card>
             <img src="../../assets/literatura0.jpeg" class="animated fadeIn">
             <div class="year-number">{{d}}s popular genres</div>

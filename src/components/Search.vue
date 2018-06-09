@@ -73,7 +73,7 @@ export default {
         },
         {
           title: 'Compare the Norwegian literary scene of selected decades: e.g. 1850s, 1890s, 1910s',
-          path: 'comparenorwegianliterary'
+          path: 'comparenorwegianliteraryscene'
         },
         {
           title: 'Were Norwegian women authors read abroad?',

@@ -34,7 +34,7 @@ export default {
 	},
   created () {
     axios.post('https://repository.huygens.knaw.nl/solr/wwdocumentreceptions/select',
-      'q=*:*&fq=relationType_s%3A(%22isTranslationOf%22)&fq=authorGender_ss%3A(%22FEMALE%22)&fq=language_ss%3A(%22Norwegian%22)&fq=type_s%3Adocument_reception&facet.field=relationType_s&facet.field=authorName_ss&facet.field=authorGender_ss&facet.field=date_i&facet.field=publishLocation_ss&facet.field=language_ss&facet.field=genre_ss&facet.field=source_ss&facet.field=documentType_s&rows=1000&facet.limit=-1&facet.sort=count&&start=0&facet=on&wt=json')
+      'q=*:*&fq=relationType_s%3A(%22isTranslationOf%22)&fq=%7B!parent%20which%3Dtype_s%3Adocument_reception%7Dperson_gender_s%3A(%22FEMALE%22)&fq=language_ss%3A(%22Norwegian%22)&fq=type_s%3Adocument_reception&facet.field=relationType_s&facet.field=authorName_ss&facet.field=authorGender_ss&facet.field=date_i&facet.field=publishLocation_ss&facet.field=language_ss&facet.field=genre_ss&facet.field=source_ss&facet.field=documentType_s&rows=25000&facet.limit=-1&facet.sort=count&&start=0&facet=on&wt=json')
       .then((res) => res.data.response.docs)
       .then((works) => {
 
@@ -51,8 +51,13 @@ export default {
         this.countriesList = {}
 
         for (const [key, value] of Object.entries(countriesUnique)) {
-          if (key === 'United Kingdom') {
+          if (key === 'United Kingdom' || key === 'Scotland') {
             this.countriesList['England'] += value
+          } else if (key === 'Emilia-Romagna (region, ITA)') {
+            this.countriesList['Italy'] += value
+          } else if (key === 'United Kingdom United States') {
+            this.countriesList['England'] += value
+            this.countriesList['United States'] += value
           } else {
             this.countriesList[key] = value
           }

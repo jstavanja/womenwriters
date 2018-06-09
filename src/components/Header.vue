@@ -4,6 +4,10 @@
       <div class="navigation-left">
         <main-menu class="main-navigation-menu"/>
         <router-link to="/" class="brand" tag="h1">NEWWW Women Writers</router-link>
+        <img src="../assets/girl1.svg" class="header-girl-image animated fadeInLeft">
+        <img src="../assets/girl2.svg" class="header-girl-image animated fadeInLeft fd1">
+        <img src="../assets/girl3.svg" class="header-girl-image animated fadeInLeft fd2">
+        <img src="../assets/girl4.svg" class="header-girl-image animated fadeInLeft fd3">
       </div>
       <div class="navigation-right">
         <search />
@@ -44,6 +48,7 @@ export default {
           padding-top: 10px;
           font-size: 36px;
           margin-left: 20px;
+          margin-right: 20px;
           color: white;
           cursor: pointer;
           transition: all .15s linear;
@@ -51,6 +56,11 @@ export default {
           &:hover {
             text-shadow: 2px 2px 4px rgba(255,255,255,0.55);
           }
+        }
+        .header-girl-image {
+          width: 60px;
+          height: 60px;
+          margin: 0 5px;
         }
       }
       .navigation-right {

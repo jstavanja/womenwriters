@@ -20,8 +20,8 @@
         <router-link to="/questions" class="navigation-link" tag="div">
           <i class="el-icon-question"></i>
           <div class="link-text">
-            <p class="link-title">I wonder ...</p>
-            <p class="link-description">Questions list</p>
+            <p class="link-title">Questions list</p>
+            <p class="link-description">I wonder ...</p>
           </div>
         </router-link>
       </li>
@@ -29,8 +29,8 @@
         <router-link to="/authors" class="navigation-link" tag="div">
           <i class="el-icon-info"></i>
           <div class="link-text">
-            <p class="link-title">Who?</p>
-            <p class="link-description">About the authors</p>
+            <p class="link-title">About the authors</p>
+            <p class="link-description">Who?</p>
           </div>
         </router-link>
       </li>
@@ -39,8 +39,8 @@
           <div class="navigation-link">
               <i class="el-icon-share"></i>
               <div class="link-text">
-                <p class="link-title">Original stuff</p>
-                <p class="link-description">Original data website</p>
+                <p class="link-title">Original data website</p>
+                <p class="link-description">The source</p>
               </div>
           </div>
         </a>

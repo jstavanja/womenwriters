@@ -89,7 +89,7 @@ export default {
   computed: {
     searchOpen: {
       get () {
-        this.searchOpenValue = this.predefinedQuestionSearchInput.length > 0 && this.searchOpenForce
+        this.searchOpenValue = this.searchOpenForce
         return this.searchOpenValue
       },
       set (val) {

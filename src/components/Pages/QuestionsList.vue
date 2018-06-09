@@ -39,11 +39,11 @@ export default {
           path: 'showthe10or20'
         },
         {
-          title: 'Give a timeline for the import of foreign literature in 19th century Norway',
+          title: 'Timeline for the import of foreign literature in 19th century Norway',
           path: 'timelineofimport'
         },
         {
-          title: 'Compare the Norwegian literary scene of selected decades: e.g. 1850s, 1890s, 1910s',
+          title: 'Comparison of the Norwegian literary scene of selected decades (1850s, 1890s, 1910s)',
           path: 'comparenorwegianliteraryscene'
         },
         {
@@ -51,7 +51,7 @@ export default {
           path: 'werereadabroad'
         },
         {
-          title: 'Investigate and compare the European reception of some selected Anglophone authors. Where in the world was for instance Jane Austen most read before 1930? Or George Eliot, Charlotte Bronte, Mary Wollstonecraft, Harriet Beecher Stowe, M. L. Alcott, and others.',
+          title: 'Investigation and comparison of the European reception of selected Anglophone authors.',
           path: 'investigateeuropeanreception'
         }
       ]

@@ -4,8 +4,22 @@
       <img src="../assets/doormat.svg" alt="Welcome image" class="welcome-image">
       <h2>Welcome to the NEWWW visualization website, please choose or search for a question!</h2>
     </div>
+    <div class="about-site">
+      <h2>What is this site about?</h2>
+      <div class="about-site-description">
+        This website was created as a project assignment for the Osnove Oblikovanja design course
+        at the Faculty of Computer and Information science in Ljubljana, in collaboration with 
+        prof. dr. Narvika Bovcon, as. Blaž Meden and prof. dr. Marie Nedregotten from Volda University College.
+        <br><br>
+        The goal was to visualize receptions by displaying data from predefined questions, that you can find on the
+        questions list page or in the search in the top right corner.
+        <br><br>
+        More about the authors <router-link to="/authors" tag="a">here</router-link>.
+        <br><br>
+      </div>
+    </div>
     <div class="recommended-questions">
-      <i class="el-icon-caret-right"></i><h2>Here are some questions to get you started:</h2>
+      <i class="el-icon-caret-right"></i><h2>Here are some questions to get you started (more in the menu):</h2>
       <ul class="questions-list">
         <router-link :to="'/visualization/' + question.path" tag="li" class="question-link-wrapper animated fadeIn" v-for="(question, idx) in questions" :key="idx">
           <div class="question-link">

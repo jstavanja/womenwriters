@@ -1,32 +1,27 @@
 <template>
   <div class="page-about-authors">
     <div class="authors-section">
-      <div class="h2">Authors of this website</div>
+      <h2>Authors of this website</h2>
       <ul>
         <li>
-          Jaka S.
-          [insert appropriate info]
+          Jaka Stavanja > 
+          <a href="https://github.com/jstavanja">github</a>
         </li>
         <li>
-          Luka T.
-          [insert appropriate info]
+          Luka Tavčer > 
+          <a href="https://github.com/lukat33">github</a>
         </li>
         <li>
-          Armin K.
-          [insert appropriate info]
+          Armin Komič > 
+          <a href="https://github.com/komicarmin">github</a>
         </li>
       </ul>
     </div>
     <div class="authors-section">
-      <div class="h2">Authors of original website</div>
+      <h2>Authors of original website</h2>
       <ul>
         <li>
-          Šaban Šaulić
-          [insert appropriate info]
-        </li>
-        <li>
-          Mile Kitić
-          [insert appropriate info]
+          Huygens ING > <a href="http://resources.huygens.knaw.nl/womenwriters">original website</a>
         </li>
       </ul>
     </div>

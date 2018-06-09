@@ -18,9 +18,9 @@
           <div class="book" v-for="(book, idx) in year[1]" :key="idx">
             <img src="../../assets/open-book.svg" alt="open book image" class="book-icon">
             <div class="book-info">
-              <p class="title">{{ book.title }}</p>
+              <p class="title">{{ book.name }}</p>
               <p class="authors">
-                <span class="author" v-for="(author, idx) in book.authors" :key="idx">{{ author }}</span>
+                <span class="author" v-for="(author, idx) in book.creators" :key="idx">{{ author }}</span>
               </p>
             </div>
           </div>
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import timelineData from '../../datasets/import-timeline.json';
+import timelineData from '../../datasets/static_tl.json';
 export default {
   data () {
     return {

@@ -20,7 +20,7 @@
             <div class="book-info">
               <p class="title">{{ book.name }}</p>
               <p class="authors">
-                <span class="author" v-for="(author, idx) in book.creators" :key="idx">{{ author }}</span>
+                <span class="author" v-for="(author, idx) in book.creators" :key="idx">{{ author }}<span v-if="idx < book.creators.length-1">, </span></span>
               </p>
             </div>
           </div>

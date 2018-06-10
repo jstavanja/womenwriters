@@ -164,6 +164,13 @@
     },
     {
       "creators": [
+        "George Sand"
+      ],
+      "name": "La petite Fadette",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Emilie Flygare - Carlén"
       ],
       "name": "En nyckfull qvinna ( A capricious woman)",
@@ -185,6 +192,34 @@
     },
     {
       "creators": [
+        "Emilie Flygare - Carlén"
+      ],
+      "name": "Familjen i dalen",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Emilie Flygare - Carlén"
+      ],
+      "name": "Familjen i dalen",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Emilie Flygare - Carlén"
+      ],
+      "name": "Familjen i dalen",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Emilie Flygare - Carlén"
+      ],
+      "name": "Familjen i dalen",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Charlotte Brontë"
       ],
       "name": "Shirley",
@@ -195,6 +230,13 @@
         "Grace Kennedy"
       ],
       "name": "Dunallan, or know what you judge",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "George Sand"
+      ],
+      "name": "La petite Fadette",
       "numOfWriters": 1
     },
     {
@@ -245,6 +287,13 @@
     },
     {
       "creators": [
+        "Charlotte Brontë"
+      ],
+      "name": "Shirley",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Fredrika Bremer"
       ],
       "name": "Nina",
@@ -259,6 +308,13 @@
     },
     {
       "creators": [
+        "Fredrika Bremer"
+      ],
+      "name": "Lif i Norden: skizz ",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Rosina Bulwer Lytton"
       ],
       "name": "Cheveley, or the Man of Honour",
@@ -269,6 +325,13 @@
         "Lady Charlotte Susan Maria Campbell Bury"
       ],
       "name": "Tryvelyan",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Lady Charlotte Susan Maria Campbell Bury"
+      ],
+      "name": "A marriage in high life",
       "numOfWriters": 1
     },
     {
@@ -318,6 +381,13 @@
         "Henriette von Paalzow"
       ],
       "name": "Sainte Roche",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "George Sand"
+      ],
+      "name": "La petite Fadette",
       "numOfWriters": 1
     },
     {
@@ -410,6 +480,13 @@
       ],
       "name": "Godwie Castle. Aus den Papieren der Herzogin von Nottingham",
       "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Henriette von Paalzow"
+      ],
+      "name": "Thomas Thyrnau",
+      "numOfWriters": 1
     }
   ],
   "1853": [
@@ -466,6 +543,13 @@
     },
     {
       "creators": [
+        "Camilla Jacobine Collett"
+      ],
+      "name": "Amtmandens Døtre",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Fredrika Bremer"
       ],
       "name": "Hemmen i den nya världen",
@@ -473,6 +557,13 @@
     }
   ],
   "1855": [
+    {
+      "creators": [
+        "Camilla Jacobine Collett"
+      ],
+      "name": "Amtmandens Døtre",
+      "numOfWriters": 1
+    },
     {
       "creators": [
         "Grace Kennedy"
@@ -485,6 +576,13 @@
         "Grace Kennedy"
       ],
       "name": "Father Clement : a Roman Catholic story",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Camilla Jacobine Collett"
+      ],
+      "name": "Amtmandens Døtre",
       "numOfWriters": 1
     }
   ],
@@ -501,6 +599,13 @@
         "Elizabeth Gaskell"
       ],
       "name": "Company Manners",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Elizabeth Gaskell"
+      ],
+      "name": "Morton Hall",
       "numOfWriters": 1
     },
     {
@@ -544,16 +649,16 @@
   "1858": [
     {
       "creators": [
-        "Fanny Burney"
+        "Elizabeth Gaskell"
       ],
-      "name": "Evelina; or, The history of a young lady's entrance into the world",
+      "name": "The Well of Pen-Morfa",
       "numOfWriters": 1
     },
     {
       "creators": [
-        "Elizabeth Gaskell"
+        "Fanny Burney"
       ],
-      "name": "The Well of Pen-Morfa",
+      "name": "Evelina; or, The history of a young lady's entrance into the world",
       "numOfWriters": 1
     },
     {
@@ -568,6 +673,13 @@
         "Margaret Maria Brewster"
       ],
       "name": "Lady Elinor Mordaunt; or, Sunbeams in the castle",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Fanny Burney"
+      ],
+      "name": "Evelina; or, The history of a young lady's entrance into the world",
       "numOfWriters": 1
     }
   ],
@@ -613,6 +725,13 @@
   "1861": [
     {
       "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Betty Salomon"
       ],
       "name": "Breve til Elisabeth",
@@ -623,6 +742,13 @@
         "Betty Salomon"
       ],
       "name": "Barnlige Kjærligheds Gjerninger",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Henriette Jacobine Martine Gislesen"
+      ],
+      "name": "Erindringer fra de betydningsfuldeste år i mit liv",
       "numOfWriters": 1
     }
   ],
@@ -669,6 +795,13 @@
         "Fanny Lewald"
       ],
       "name": "The last of his tribe",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Anna D'Almeida"
+      ],
+      "name": "A Lady's visit to Manilla and Japan",
       "numOfWriters": 1
     },
     {
@@ -737,13 +870,6 @@
   "1868": [
     {
       "creators": [
-        "Harriet Elisabeth Beecher Stowe"
-      ],
-      "name": "Little foxes; or, The little failings that mar domestic happiness.",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
         "Sarah Smith"
       ],
       "name": "Jessica's First Prayer",
@@ -790,23 +916,25 @@
       ],
       "name": "Forviklinger",
       "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Little foxes; or, The little failings that mar domestic happiness.",
+      "numOfWriters": 1
+    }
+  ],
+  "1869": [
+    {
+      "creators": [
+        "Camilla Jacobine Collett"
+      ],
+      "name": "Amtmandens Døtre",
+      "numOfWriters": 1
     }
   ],
   "1870": [
-    {
-      "creators": [
-        "Mary Elizabeth Braddon"
-      ],
-      "name": "Rupert Godwin",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Mary Elizabeth Braddon"
-      ],
-      "name": "The doctor's wife",
-      "numOfWriters": 1
-    },
     {
       "creators": [
         "George Sand"
@@ -840,6 +968,13 @@
         "Eugenie Marlitt"
       ],
       "name": "Magdalena",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Elizabeth Braddon"
+      ],
+      "name": "Rupert Godwin",
       "numOfWriters": 1
     }
   ],
@@ -911,6 +1046,27 @@
     },
     {
       "creators": [
+        "Conradine Birgitte Dunker"
+      ],
+      "name": "Gamle Dage. Erindringer og Tidsbilleder",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Conradine Birgitte Dunker"
+      ],
+      "name": "Gamle Dage. Erindringer og Tidsbilleder",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Conradine Birgitte Dunker"
+      ],
+      "name": "Gamle Dage. Erindringer og Tidsbilleder",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Sarah Smith"
       ],
       "name": "Bede's Charity",
@@ -972,6 +1128,13 @@
         "Sarah Smith"
       ],
       "name": "The Children of Cloverly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "George Eliot"
+      ],
+      "name": "Middlemarch, a study of provincial life",
       "numOfWriters": 1
     }
   ],
@@ -1050,6 +1213,13 @@
     },
     {
       "creators": [
+        "Ellen Wood"
+      ],
+      "name": "The foggy night at Offord",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Sarah Smith"
       ],
       "name": "Enoch Roden's Training",
@@ -1088,6 +1258,13 @@
         "Dinah Maria Mulock Craik"
       ],
       "name": "The woman's kingdom",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Maria Louise de La Ramée"
+      ],
+      "name": "Hon vil!",
       "numOfWriters": 1
     }
   ],
@@ -1147,6 +1324,13 @@
       ],
       "name": "The Giant-Killer",
       "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Hannah More"
+      ],
+      "name": "The Shepherd of Salisbury Plain and Other Tales",
+      "numOfWriters": 1
     }
   ],
   "1877": [
@@ -1190,6 +1374,20 @@
         "Harriet Elisabeth Beecher Stowe"
       ],
       "name": "Footsteps of the Master",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
       "numOfWriters": 1
     },
     {
@@ -1275,6 +1473,13 @@
       "creators": [
         "Mary Elizabeth Braddon"
       ],
+      "name": "Weavers and weft",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Elizabeth Braddon"
+      ],
       "name": "Joshua Haggard's daughter",
       "numOfWriters": 1
     },
@@ -1329,6 +1534,13 @@
     },
     {
       "creators": [
+        "Dinah Maria Mulock Craik"
+      ],
+      "name": "John Halifax, gentleman",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Elizabeth Rundle Charles"
       ],
       "name": "Conquering and to Conquer",
@@ -1348,6 +1560,20 @@
         "Sarah Smith"
       ],
       "name": "Friends till Death",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "George Eliot"
+      ],
+      "name": "Brother Jacob",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "George Eliot"
+      ],
+      "name": "The lifted veil",
       "numOfWriters": 1
     },
     {
@@ -1438,6 +1664,13 @@
     },
     {
       "creators": [
+        "Elizabeth Rundle Charles"
+      ],
+      "name": "Lapsed, but not lost. A story of Roman Carthage",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "[TEMP] Newman"
       ],
       "name": "Jean",
@@ -1478,6 +1711,20 @@
         "Ellen Wood"
       ],
       "name": "A Hunt by Moonlight",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Sarah Smith"
+      ],
+      "name": "Alone in London",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Ottilie Wildermuth"
+      ],
+      "name": "Aus dem Frauenleben",
       "numOfWriters": 1
     },
     {
@@ -1605,6 +1852,20 @@
     },
     {
       "creators": [
+        "Maren Pauline Winsnes"
+      ],
+      "name": "Herodes den Store",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Elisabeth Bürstenbinder"
       ],
       "name": " Die Blume des Glücks",
@@ -1681,6 +1942,13 @@
       ],
       "name": "Carola",
       "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Sarah Smith"
+      ],
+      "name": "No Place like Home",
+      "numOfWriters": 1
     }
   ],
   "1885": [
@@ -1756,9 +2024,30 @@
     },
     {
       "creators": [
+        "Hannah More"
+      ],
+      "name": "'Tis all for the best",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Elizabeth Braddon"
+      ],
+      "name": "Rupert Godwin",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Alexandrine Sophie de Bawr"
       ],
       "name": "Short stories by Madame Bawr",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Antoinette Meyn"
+      ],
+      "name": "I Tusmørket : Et Hverdagsbillede af Marie",
       "numOfWriters": 1
     },
     {
@@ -1791,9 +2080,51 @@
     },
     {
       "creators": [
+        "Charlotte Amalie Koren"
+      ],
+      "name": "Hans Skjæbne",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Inger Marie Lyche Wexelsen"
+      ],
+      "name": "Vesle-Kari eller De Foreldreløse",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Anna Magdalene Thoresen "
+      ],
+      "name": "Livsbilleder",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Elisabeth Schøyen"
+      ],
+      "name": "Hellig Olaf, en historisk fortælling",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Kirsten Dorothea Aagaard Hansen"
+      ],
+      "name": "En tornefuld Sti",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Johanne Schjørring"
       ],
       "name": "Fortællinger og Skizzer",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Eleanor Frances Poynter"
+      ],
+      "name": "Madame de Presnel",
       "numOfWriters": 1
     }
   ],
@@ -1817,6 +2148,13 @@
         "Anne Thackeray"
       ],
       "name": "Mrs. Dymond",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Johanna Spyri"
+      ],
+      "name": "Kurze Geschichten für Kinder und auch für Solche, welche die Kinder lieb haben",
       "numOfWriters": 1
     },
     {
@@ -1851,6 +2189,13 @@
   "1887": [
     {
       "creators": [
+        "Maria Louise de La Ramée"
+      ],
+      "name": "Don Gesualdo",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Margaret Wolfe Hungerford"
       ],
       "name": "A Passive Crime: And Other Stories",
@@ -1861,6 +2206,13 @@
         "Annie French Hector"
       ],
       "name": "By woman's wit",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Frances Eliza Hodgson Burnett"
+      ],
+      "name": "Louisiana",
       "numOfWriters": 1
     },
     {
@@ -1963,6 +2315,13 @@
         "Annie French Hector"
       ],
       "name": "A Crooked Path",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Frances Eliza Hodgson Burnett"
+      ],
+      "name": "Louisiana",
       "numOfWriters": 1
     },
     {
@@ -2081,6 +2440,13 @@
     },
     {
       "creators": [
+        "Laura Anna Sophie Kieler"
+      ],
+      "name": "Mænd af ære",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Marie von Schlägel"
       ],
       "name": "In the snow",
@@ -2088,16 +2454,23 @@
     },
     {
       "creators": [
-        "Maria Scott/Scotta/Scotto"
+        "Marie von Schlägel"
       ],
-      "name": "The wait",
+      "name": "Lt Axel's Friend",
       "numOfWriters": 1
     },
     {
       "creators": [
-        "Mary Denison"
+        "Anna Munch"
       ],
-      "name": "That Husband of mine",
+      "name": "Over på den anden side : en julefortælling ",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Maria Scott/Scotta/Scotto"
+      ],
+      "name": "The wait",
       "numOfWriters": 1
     },
     {
@@ -2123,10 +2496,11 @@
     },
     {
       "creators": [
+        "Nellie Bly",
         "Elizabeth Jane Cochran"
       ],
       "name": "Around the World in Seventy-Two Days",
-      "numOfWriters": 1
+      "numOfWriters": 2
     },
     {
       "creators": [
@@ -2148,6 +2522,41 @@
       ],
       "name": "La fille de Dosia",
       "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Eliza A. Warner"
+      ],
+      "name": "Our Two Lives; or Graham and I",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Annie Besant"
+      ],
+      "name": "Reincarnation",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Elizabeth Braddon"
+      ],
+      "name": "Cyprian Davenant",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Denison"
+      ],
+      "name": "That Husband of mine",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Emma Marshall"
+      ],
+      "name": "The end crowns all",
+      "numOfWriters": 1
     }
   ],
   "1891": [
@@ -2156,6 +2565,13 @@
         "Olive Schreiner"
       ],
       "name": "The story of an African farm",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "A born coquette",
       "numOfWriters": 1
     },
     {
@@ -2223,6 +2639,13 @@
     },
     {
       "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Frances Eliza Hodgson Burnett"
       ],
       "name": "Little Lord Fauntleroy",
@@ -2232,16 +2655,16 @@
   "1892": [
     {
       "creators": [
-        "Matilde Serao"
+        "Frances Eliza Hodgson Burnett"
       ],
-      "name": "A deal",
+      "name": "Sara Crew: Or, What Happened at Miss Minchin's",
       "numOfWriters": 1
     },
     {
       "creators": [
-        "George Eliot"
+        "Matilde Serao"
       ],
-      "name": "Silas Marner",
+      "name": "A deal",
       "numOfWriters": 1
     },
     {
@@ -2330,6 +2753,13 @@
     },
     {
       "creators": [
+        "Louisa May Alcott"
+      ],
+      "name": "An Old-Fashioned Girl",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Eliza Richardson"
       ],
       "name": "Personal experiences of the catholicism and life in monastery",
@@ -2351,9 +2781,23 @@
     },
     {
       "creators": [
+        "Mary Augusta Ward"
+      ],
+      "name": "The history of David Grieve",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Mary Denison"
       ],
       "name": "That wife of mine",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "George Eliot"
+      ],
+      "name": "Silas Marner",
       "numOfWriters": 1
     }
   ],
@@ -2409,6 +2853,13 @@
     },
     {
       "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Cornelia von Levetzow"
       ],
       "name": "Nye dage",
@@ -2430,9 +2881,23 @@
     },
     {
       "creators": [
+        "Antoinette Meyn"
+      ],
+      "name": "Svundne tider. Et tidsbillede",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Josephine Cecilia Diebitsch Peary"
       ],
       "name": "My Arctic Journal; a year among Ice-fields and Eskimos",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Sonja Kovalevsky"
+      ],
+      "name": "Vera Voronzoff",
       "numOfWriters": 1
     },
     {
@@ -2500,6 +2965,20 @@
     },
     {
       "creators": [
+        "Constance Fenimore Woolson"
+      ],
+      "name": "Anne",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Emmy Auguste Karoline Henriette Friedrich"
+      ],
+      "name": "Trotzkopf brautzeit",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "George Eliot"
       ],
       "name": "O May I Join the Choir Invisible",
@@ -2558,6 +3037,20 @@
     },
     {
       "creators": [
+        "Karen Stenersen"
+      ],
+      "name": " Fra sætervold til hav ",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Doris Rein"
+      ],
+      "name": "Monime",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Emmarenze (Emma) Henriette Margrethe Gad"
       ],
       "name": "Et forspil",
@@ -2565,9 +3058,23 @@
     },
     {
       "creators": [
+        "Emmarenze (Emma) Henriette Margrethe Gad"
+      ],
+      "name": "Tro som Guld. Lystspil i fire akter",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Erna Juel - Hansens"
       ],
       "name": "Terese Kærnulf, to afsnit af en ung kvindes liv",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Beatrice Harraden"
+      ],
+      "name": "Ships That Pass in the Night",
       "numOfWriters": 1
     },
     {
@@ -2642,6 +3149,13 @@
     },
     {
       "creators": [
+        "Gyp"
+      ],
+      "name": "Le Mariage de Chiffon",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Ilse Frapan"
       ],
       "name": "Zu Wasser und zu Lande",
@@ -2652,6 +3166,13 @@
         "Ilse Frapan"
       ],
       "name": "Bekannte Gesichter",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Laura Anna Sophie Kieler"
+      ],
+      "name": "Han faldt ved Helgoland: En Fortælling",
       "numOfWriters": 1
     },
     {
@@ -2670,6 +3191,27 @@
     },
     {
       "creators": [
+        "Doris Rein"
+      ],
+      "name": "Jesabel",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Olive Schreiner"
+      ],
+      "name": "The story of an African farm",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Ottesen"
+      ],
+      "name": "Gerda, eine norwegische Erzählung",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Anna Maria Lovisa Wahlenberg"
       ],
       "name": "Tolf Skisser",
@@ -2680,6 +3222,13 @@
         "Anna Maria Lovisa Wahlenberg"
       ],
       "name": "En stor man",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Anna Magdalene Thoresen "
+      ],
+      "name": "Kristoffer Valkendorf og hanseaterne",
       "numOfWriters": 1
     },
     {
@@ -2712,18 +3261,81 @@
     },
     {
       "creators": [
+        "Božena Němcová"
+      ],
+      "name": "Babicka",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Bertha von Suttner"
       ],
       "name": "Hazard",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Augusta Ward"
+      ],
+      "name": "Marcella",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Hendrikke (Dikken) Barbara Zwilgmeyer"
+      ],
+      "name": "Sommerferier : fortællinger for børn / af Inger Johanne ",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Augusta Ward"
+      ],
+      "name": "Marcella",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Emmy Auguste Karoline Henriette Friedrich"
+      ],
+      "name": "Trotzkopf brautzeit",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Olive Schreiner"
+      ],
+      "name": "The story of an African farm",
       "numOfWriters": 1
     }
   ],
   "1895": [
     {
       "creators": [
+        "Camilla Jacobine Collett"
+      ],
+      "name": "Amtmandens Døtre",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Mary Augusta Ward"
       ],
       "name": "The Story of Bessie Costrell",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Chavelita Dunne"
+      ],
+      "name": "Keynotes",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Hulda Garborg"
+      ],
+      "name": "Mødre : Drama i tre Akter (Mothers : Drama in three Acts)",
       "numOfWriters": 1
     },
     {
@@ -2738,6 +3350,13 @@
         "Margaret Wolfe Hungerford"
       ],
       "name": "The Red House Mystery",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
       "numOfWriters": 1
     },
     {
@@ -2833,6 +3452,13 @@
     },
     {
       "creators": [
+        "Mathilda Malling"
+      ],
+      "name": "Fru guvernören af Paris: bilder från kejsarhofvet 1807",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Constance Cary Harrison"
       ],
       "name": "A Bachelor Maid",
@@ -2840,9 +3466,58 @@
     },
     {
       "creators": [
+        "Alvilde Prydz"
+      ],
+      "name": "Bellis",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Clara Tschudi"
+      ],
+      "name": "Marie Antoinette og revolutionen, Del I: 1789-92",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Amalie Skram"
+      ],
+      "name": "På Sct. Jørgen",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Laura Mohr"
       ],
       "name": "Tvenne kvinnoöden",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Marie Jørstad"
+      ],
+      "name": "Trofast, en Hund fortæller sine Oplevelser. Frit gjenfortalt efter Marschal Saunders \"Beautiful Joe\"",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Hendrikke (Dikken) Barbara Zwilgmeyer"
+      ],
+      "name": "Barndom",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Marie Nathusius"
+      ],
+      "name": "Elisabeth. Eine Geschichte, die nicht mit der Heirath schliesst",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Anna Munch"
+      ],
+      "name": "Roser og tidsler. En studie",
       "numOfWriters": 1
     },
     {
@@ -2882,9 +3557,16 @@
     },
     {
       "creators": [
-        "George Eliot"
+        "Mary Augusta Ward"
       ],
-      "name": "The Mill on the Floss",
+      "name": "The Story of Bessie Costrell",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Olive Schreiner"
+      ],
+      "name": "The story of an African farm",
       "numOfWriters": 1
     },
     {
@@ -2914,9 +3596,30 @@
       ],
       "name": "Pembroke",
       "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "George Eliot"
+      ],
+      "name": "The Mill on the Floss",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Augusta Ward"
+      ],
+      "name": "The Story of Bessie Costrell",
+      "numOfWriters": 1
     }
   ],
   "1896": [
+    {
+      "creators": [
+        "Mary Elizabeth Braddon"
+      ],
+      "name": "Strangers and pilgrims",
+      "numOfWriters": 1
+    },
     {
       "creators": [
         "George Eliot"
@@ -2929,6 +3632,13 @@
         "Ellen Wood"
       ],
       "name": "Dene Hollow",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Chavelita Dunne"
+      ],
+      "name": "Discords",
       "numOfWriters": 1
     },
     {
@@ -2961,13 +3671,6 @@
     },
     {
       "creators": [
-        "Mary Mackay"
-      ],
-      "name": "Barabbas: A Dream of the World's Tragedy",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
         "Frances Mary Peard"
       ],
       "name": "Heartless?",
@@ -2985,6 +3688,13 @@
         "Mary Eleanor Wilkins Freeman"
       ],
       "name": "Madelon",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Laura Mohr"
+      ],
+      "name": "Tvenne kvinnoöden",
       "numOfWriters": 1
     },
     {
@@ -3038,6 +3748,13 @@
     },
     {
       "creators": [
+        "Mary Mackay"
+      ],
+      "name": "Barabbas: A Dream of the World's Tragedy",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Mathilda Malling"
       ],
       "name": "Eremitage-Idyllen, Interiører fra 1750’erne",
@@ -3055,6 +3772,13 @@
         "Auguste Weismüller"
       ],
       "name": "Poste restante",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Charlotte Amalie Koren"
+      ],
+      "name": "Hendrik den 8de og Anna Boleyn",
       "numOfWriters": 1
     },
     {
@@ -3115,6 +3839,13 @@
     },
     {
       "creators": [
+        "Alvilde Prydz"
+      ],
+      "name": "Gunvor Thorsdatter til Hærø",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Lilly Dougall"
       ],
       "name": "The Madonna of a day: A study",
@@ -3153,6 +3884,34 @@
         "Charlotte Mary Brame"
       ],
       "name": "The disappeared one, or 'The red and white rose'",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Chavelita Dunne"
+      ],
+      "name": "Discords",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Laura Mohr"
+      ],
+      "name": "Wir Frauen und unsere Dichter",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Laura Mohr"
+      ],
+      "name": "Wir Frauen und unsere Dichter",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Mackay"
+      ],
+      "name": "Barabbas: A Dream of the World's Tragedy",
       "numOfWriters": 1
     }
   ],
@@ -3222,6 +3981,13 @@
     },
     {
       "creators": [
+        "Anna Magdalene Thoresen "
+      ],
+      "name": "En Udflytning",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Hildegarde Hawthorne"
       ],
       "name": "Perdita",
@@ -3257,9 +4023,23 @@
     },
     {
       "creators": [
+        "Elisabeth Schøyen"
+      ],
+      "name": "Hellig Olaf, en historisk fortælling",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Hortense Panum"
       ],
       "name": "Illustreret Musikhistorie",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Anna Magdalene Thoresen "
+      ],
+      "name": "Udenom afgrunden",
       "numOfWriters": 1
     },
     {
@@ -3320,9 +4100,9 @@
     },
     {
       "creators": [
-        "Mary Mackay"
+        "Mary Augusta Ward"
       ],
-      "name": "The Mighty Atom",
+      "name": "Sir George Tressady",
       "numOfWriters": 1
     },
     {
@@ -3330,6 +4110,13 @@
         "Lula Aloisia Kirschner"
       ],
       "name": "Finis poloniœ",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Mackay"
+      ],
+      "name": "The Mighty Atom",
       "numOfWriters": 1
     }
   ],
@@ -3346,6 +4133,13 @@
         "Olive Schreiner"
       ],
       "name": "Dreams",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Marie Nathusius"
+      ],
+      "name": "Elisabeth. Eine Geschichte, die nicht mit der Heirath schliesst",
       "numOfWriters": 1
     },
     {
@@ -3371,6 +4165,34 @@
     },
     {
       "creators": [
+        "Mary Chavelita Dunne"
+      ],
+      "name": "Stories",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Sarah Smith"
+      ],
+      "name": "A Thorny Path",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Jessie Fothergill"
       ],
       "name": "The first violin",
@@ -3388,6 +4210,13 @@
         "Eugenie Marlitt"
       ],
       "name": "A family drama",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Eugenie Marlitt"
+      ],
+      "name": "Die zweite Frau (The second wife)",
       "numOfWriters": 1
     },
     {
@@ -3462,41 +4291,6 @@
     },
     {
       "creators": [
-        "Marie de Valandré"
-      ],
-      "name": "Le livre de l'épousée",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Marthe Stiévenard"
-      ],
-      "name": "Chrysanthèmes",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Bertha Galeron de Calonne"
-      ],
-      "name": "Dans ma nuit",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Marie de Valandré"
-      ],
-      "name": "Le livre de la fiancée",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Marguerite Comert"
-      ],
-      "name": "L'Âme et la mort",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
         "Cornelia von Levetzow"
       ],
       "name": "Hjemliv",
@@ -3539,6 +4333,13 @@
     },
     {
       "creators": [
+        "Annie French Hector"
+      ],
+      "name": "Barbara: A Lady's Maid and Peeress",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Anna Katharine Green"
       ],
       "name": "Lost Man's Lane: a Second Episode in the Life of Amelia Butterworth",
@@ -3560,9 +4361,51 @@
     },
     {
       "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Uncle Tom's cabin, or Life among the lowly",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Mary Mackay"
       ],
       "name": "The Murder of Delicia",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Marguerite Comert"
+      ],
+      "name": "L' âme et la mort",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Marie de Valandré"
+      ],
+      "name": "Le livre de l'épousée",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Marthe Stiévenard"
+      ],
+      "name": "Chrysanthèmes",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Bertha Galeron de Calonne"
+      ],
+      "name": "Dans ma nuit",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Marie de Valandré"
+      ],
+      "name": "Le livre de la fiancée",
       "numOfWriters": 1
     }
   ],
@@ -3600,6 +4443,13 @@
         "Marie Malézieux Vieu"
       ],
       "name": "Histoire d'un petit homme",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Laura Anna Sophie Kieler"
+      ],
+      "name": "Sønderjydske Børn efter 1864",
       "numOfWriters": 1
     },
     {
@@ -3674,6 +4524,13 @@
     },
     {
       "creators": [
+        "Ovidia Aas"
+      ],
+      "name": "Nemesis",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Selma Ottilia Lovisa Lagerlöf"
       ],
       "name": "Drottningar i Kungahälla, jämte andra berättelser",
@@ -3684,6 +4541,34 @@
         "Sophie Elkan"
       ],
       "name": "John Hall. En historia från den gamla Götheborg. Del 1-2. Stockholm",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Alvilde Prydz"
+      ],
+      "name": "Aino",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Hilma Kristina Elisabeth Angered - Strandberg"
+      ],
+      "name": "Från det nya och gamla landet",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Hendrikke (Dikken) Barbara Zwilgmeyer"
+      ],
+      "name": "Fire kusiner",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Marie Malézieux Vieu"
+      ],
+      "name": "Histoire d'un petit homme",
       "numOfWriters": 1
     },
     {
@@ -3723,6 +4608,27 @@
     },
     {
       "creators": [
+        "Mary Elizabeth Braddon"
+      ],
+      "name": "John Marchmont's Legacy",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Her week's amusement; Ugly Barrington",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Rossmoyne",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Louisa May Alcott"
       ],
       "name": "Jo's boys and how they turned out",
@@ -3730,163 +4636,143 @@
     },
     {
       "creators": [
-        "Lady Frances Williams- Wynn"
+        "Annie French Hector"
       ],
-      "name": "Diaries of a Lady of Quality",
+      "name": "Blind Fate",
       "numOfWriters": 1
     },
     {
       "creators": [
-        "Queen Victoria"
+        "Mary Elizabeth Braddon"
       ],
-      "name": "Leaves from the journal of our life in the Highlands 1848-1861",
+      "name": "Eleanor's victory",
       "numOfWriters": 1
     },
     {
       "creators": [
-        "Fanny Stenhouse"
+        "Mary Elizabeth Braddon"
       ],
-      "name": "A Lady's Life Among the Mormons",
+      "name": "Lady Audley's Secret",
       "numOfWriters": 1
     },
     {
       "creators": [
-        "Florentia Sale"
+        "Charlotte Brontë"
       ],
-      "name": "A Journal of the Disasters in Affghanistan",
+      "name": "Villette",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "A Life's Remorse",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "A Troublesome Girl",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Undercurrents",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Honourable Mrs. Vereker",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Judith Lady Montefiore",
+        "Sophia Lane Poole"
+      ],
+      "name": "The Englishwoman in Russia: Impressions of the Society and Manners of the Russians at Home",
+      "numOfWriters": 2
+    },
+    {
+      "creators": [
+        "Marie Jørstad"
+      ],
+      "name": "Barabbas: Drøm og Virkelighed ",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Kathrine Faye-Hansen"
+      ],
+      "name": "Det mægtige atom (transl. by K.F.H.)",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Nanna Octavia Hoch"
+      ],
+      "name": "Rupert Godwin, eller Bankierens Hævn : romantisk Fortælling",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Helen C. Knight"
+      ],
+      "name": "A new memoir of Hannah More, or, Life in hall and cottage",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Katharine Sarah MacQuoid"
+      ],
+      "name": "Elizabeth Morley",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Katharine Sarah MacQuoid"
+      ],
+      "name": "Elizabeth Morley. A novel.",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriet Elisabeth Beecher Stowe"
+      ],
+      "name": "Little foxes; or, The little failings that mar domestic happiness.",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Sara Chapman Thorp Bull"
+      ],
+      "name": "Ole Bull: a memoir; with Ole Bull's Violin notes and A.B. Crosby's Anatomy of the violinist",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Lady Diana de Vere"
+      ],
+      "name": "A summer and winter in Norway",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Anne Barker"
+      ],
+      "name": "Station Life in New Zealand, Station amusements in New Zealand, A years housekeeping in S. Africa.  ",
       "numOfWriters": 1
     },
     {
       "creators": [
         "Margaret Oliphant Wilson"
       ],
-      "name": "Memoir of Count de Montalembert",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Elizabeth Eastlake Rigby"
-      ],
-      "name": "Music And The Art Of Dress",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Sydney Owenson"
-      ],
-      "name": "Passages from my autobiography",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Florence Marryat"
-      ],
-      "name": "Life and Letters of Captain Marryat",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Helen Catherine Douglas Mackenzie"
-      ],
-      "name": "Life in the Mission or Six Years in India ",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Katherine Harris Bradley"
-      ],
-      "name": "A Lady's Diary of the Siege of Lucknow",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Julia Kavanagh"
-      ],
-      "name": "A summer and winter in the Two Sicilies, English Women of Letters",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Anna Brownell Jameson"
-      ],
-      "name": "Sketches in Canada, and rambles among the red men",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Harriot Kezia Hunt"
-      ],
-      "name": "Glances a. glimpses, or 50 years social, including 20 years professional life",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Mary Howitt"
-      ],
-      "name": "PIctorial calendar of the seasons ",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Matilda Charlotte Houstoun"
-      ],
-      "name": "Texas and the Gulf of Mexico; or, Yachting in the New world",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Mary Sturge Henderson"
-      ],
-      "name": "The vicissitudes of Italy since the congress of Vienna",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Catherine Laura Johnstone"
-      ],
-      "name": "The progress of science, art and literature in Russia",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Margaret Fuller"
-      ],
-      "name": "Woman in the 19th century",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Tennessee Celeste Claflin"
-      ],
-      "name": "Essays on social topics",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Anna Laetitia Barbauld"
-      ],
-      "name": "Selections from the Spectator, Tatler, Guardian, and Freeholder, with a Preliminary Essay ",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Selina Bunbury"
-      ],
-      "name": "Life in Sweden",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Annie French Hector"
-      ],
-      "name": "The wooing o't",
-      "numOfWriters": 1
-    },
-    {
-      "creators": [
-        "Sophia Lane Poole"
-      ],
-      "name": "The Englishwoman in Russia: Impressions of the Society and Manners of the Russians at Home",
+      "name": "The victorian age of English literature",
       "numOfWriters": 1
     },
     {
@@ -3894,6 +4780,104 @@
         "Annie French Hector"
       ],
       "name": "Maid, Wife or Widow",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Lizzie Alldridge"
+      ],
+      "name": "By Love and Law: The Story of an Honourable Woman",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Molly Bawn",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Mrs Geoffrey",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Faith and Unfaith",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Phyllis",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Portia, or by Passions Rocked",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Loys, Lord Beresford, and other Tales",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Doris",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "A Passive Crime: And Other Stories",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Green Pleasures and Grey Grief",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "A mental struggle",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Marvel",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Lady Valworth's Diamonds",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "Lady Branksmere",
       "numOfWriters": 1
     },
     {
@@ -3908,6 +4892,13 @@
         "Annie French Hector"
       ],
       "name": "A second life",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Annie French Hector"
+      ],
+      "name": "A Crooked Path",
       "numOfWriters": 1
     },
     {
@@ -3954,6 +4945,13 @@
     },
     {
       "creators": [
+        "Annie French Hector"
+      ],
+      "name": "A Life Interest",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Eliza A. Warner"
       ],
       "name": "Our Two Lives; or Graham and I",
@@ -3975,6 +4973,20 @@
     },
     {
       "creators": [
+        "Mary Elizabeth Braddon"
+      ],
+      "name": "Rupert Godwin",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Elizabeth Braddon"
+      ],
+      "name": "Taken at the flood",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Annie French Hector"
       ],
       "name": "A Ward in Chancery",
@@ -3991,6 +5003,13 @@
       "creators": [
         "Louisa May Alcott"
       ],
+      "name": "Little women; or, Meg, Jo, Beth and Amy",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Louisa May Alcott"
+      ],
       "name": "Good wives",
       "numOfWriters": 1
     },
@@ -3999,6 +5018,188 @@
         "Louisa May Alcott"
       ],
       "name": "Little men",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Annie French Hector"
+      ],
+      "name": "A Life Interest",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Emma Marshall"
+      ],
+      "name": "Alma: Or, the Story of a Little Music Mistress",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Annie French Hector"
+      ],
+      "name": "The wooing o't",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Elizabeth Gaskell"
+      ],
+      "name": "Cranford",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Fanny Burney"
+      ],
+      "name": "Evelina; or, The history of a young lady's entrance into the world",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Queen Victoria"
+      ],
+      "name": "Leaves from the journal of our life in the Highlands 1848-1861",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Lady Frances Williams- Wynn"
+      ],
+      "name": "Diaries of a Lady of Quality",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Sydney Owenson"
+      ],
+      "name": "Passages from my autobiography",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Florence Marryat"
+      ],
+      "name": "Life and Letters of Captain Marryat",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Tennessee Celeste Claflin"
+      ],
+      "name": "Essays on social topics",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Anna Laetitia Barbauld"
+      ],
+      "name": "Selections from the Spectator, Tatler, Guardian, and Freeholder, with a Preliminary Essay ",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Elizabeth Eastlake Rigby"
+      ],
+      "name": "Music And The Art Of Dress",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Catherine Laura Johnstone"
+      ],
+      "name": "The progress of science, art and literature in Russia",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Oliphant Wilson"
+      ],
+      "name": "Memoir of Count de Montalembert",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Margaret Fuller"
+      ],
+      "name": "Woman in the 19th century",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Matilda Charlotte Houstoun"
+      ],
+      "name": "Texas and the Gulf of Mexico; or, Yachting in the New world",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Fanny Stenhouse"
+      ],
+      "name": "A Lady's Life Among the Mormons",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Sturge Henderson"
+      ],
+      "name": "The vicissitudes of Italy since the congress of Vienna",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Florentia Sale"
+      ],
+      "name": "A Journal of the Disasters in Affghanistan",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Harriot Kezia Hunt"
+      ],
+      "name": "Glances a. glimpses, or 50 years social, including 20 years professional life",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Mary Howitt"
+      ],
+      "name": "PIctorial calendar of the seasons ",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Anna Brownell Jameson"
+      ],
+      "name": "Sketches in Canada, and rambles among the red men",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Julia Kavanagh"
+      ],
+      "name": "A summer and winter in the Two Sicilies, English Women of Letters",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Katherine Harris Bradley"
+      ],
+      "name": "A Lady's Diary of the Siege of Lucknow",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Selina Bunbury"
+      ],
+      "name": "Life in Sweden",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Helen Catherine Douglas Mackenzie"
+      ],
+      "name": "Life in the Mission or Six Years in India ",
       "numOfWriters": 1
     }
   ],
@@ -4026,6 +5227,13 @@
     },
     {
       "creators": [
+        "Margaret Wolfe Hungerford"
+      ],
+      "name": "The Professor's Experiment",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
         "Annie French Hector"
       ],
       "name": "The Victoria Cross",
@@ -4036,6 +5244,13 @@
         "Bithia Mary Croker"
       ],
       "name": "Madeline's Choice",
+      "numOfWriters": 1
+    },
+    {
+      "creators": [
+        "Hendrikke (Dikken) Barbara Zwilgmeyer"
+      ],
+      "name": "Anniken Præstgaren",
       "numOfWriters": 1
     },
     {
